@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,7 +57,7 @@ class OrderRefund implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'amount' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
+        'amount' => '\Johncarlson21\EbaySdk\Model\Amount',
         'refundDate' => 'string',
         'refundId' => 'string',
         'refundReferenceId' => 'string',
@@ -229,7 +229,7 @@ class OrderRefund implements ModelInterface, ArrayAccess
     /**
      * Gets amount
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getAmount()
     {
@@ -239,7 +239,7 @@ class OrderRefund implements ModelInterface, ArrayAccess
     /**
      * Sets amount
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $amount amount
+     * @param \Johncarlson21\EbaySdk\Model\Amount $amount amount
      *
      * @return $this
      */

@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,9 +57,9 @@ class ShippingFulfillmentPagedCollection implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'fulfillments' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillment[]',
+        'fulfillments' => '\Johncarlson21\EbaySdk\Model\ShippingFulfillment[]',
         'total' => 'int',
-        'warnings' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Error[]'
+        'warnings' => '\Johncarlson21\EbaySdk\Model\Error[]'
     ];
 
     /**
@@ -217,7 +217,7 @@ class ShippingFulfillmentPagedCollection implements ModelInterface, ArrayAccess
     /**
      * Gets fulfillments
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillment[]
+     * @return \Johncarlson21\EbaySdk\Model\ShippingFulfillment[]
      */
     public function getFulfillments()
     {
@@ -227,7 +227,7 @@ class ShippingFulfillmentPagedCollection implements ModelInterface, ArrayAccess
     /**
      * Sets fulfillments
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillment[] $fulfillments This array contains one or more fulfillments required for the order that was specified in method endpoint.
+     * @param \Johncarlson21\EbaySdk\Model\ShippingFulfillment[] $fulfillments This array contains one or more fulfillments required for the order that was specified in method endpoint.
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class ShippingFulfillmentPagedCollection implements ModelInterface, ArrayAccess
     /**
      * Gets warnings
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Error[]
+     * @return \Johncarlson21\EbaySdk\Model\Error[]
      */
     public function getWarnings()
     {
@@ -275,7 +275,7 @@ class ShippingFulfillmentPagedCollection implements ModelInterface, ArrayAccess
     /**
      * Sets warnings
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Error[] $warnings This array is only returned if one or more errors or warnings occur with the call request.
+     * @param \Johncarlson21\EbaySdk\Model\Error[] $warnings This array is only returned if one or more errors or warnings occur with the call request.
      *
      * @return $this
      */

@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api;
+namespace Johncarlson21\EbaySdk\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -94,7 +94,7 @@ class OrderApi
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Order
+     * @return \Johncarlson21\EbaySdk\Model\Order
      */
     public function getOrder($orderId, $fieldGroups = null)
     {
@@ -110,11 +110,11 @@ class OrderApi
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Order, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Johncarlson21\EbaySdk\Model\Order, HTTP status code, HTTP response headers (array of strings)
      */
     public function getOrderWithHttpInfo($orderId, $fieldGroups = null)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Order';
+        $returnType = '\Johncarlson21\EbaySdk\Model\Order';
         $request = $this->getOrderRequest($orderId, $fieldGroups);
 
         try {
@@ -166,7 +166,7 @@ class OrderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Order',
+                        '\Johncarlson21\EbaySdk\Model\Order',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -210,7 +210,7 @@ class OrderApi
      */
     public function getOrderAsyncWithHttpInfo($orderId, $fieldGroups = null)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Order';
+        $returnType = '\Johncarlson21\EbaySdk\Model\Order';
         $request = $this->getOrderRequest($orderId, $fieldGroups);
 
         return $this->client
@@ -368,7 +368,7 @@ class OrderApi
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderSearchPagedCollection
+     * @return \Johncarlson21\EbaySdk\Model\OrderSearchPagedCollection
      */
     public function getOrders($fieldGroups = null, $filter = null, $limit = null, $offset = null, $orderIds = null)
     {
@@ -387,11 +387,11 @@ class OrderApi
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderSearchPagedCollection, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Johncarlson21\EbaySdk\Model\OrderSearchPagedCollection, HTTP status code, HTTP response headers (array of strings)
      */
     public function getOrdersWithHttpInfo($fieldGroups = null, $filter = null, $limit = null, $offset = null, $orderIds = null)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderSearchPagedCollection';
+        $returnType = '\Johncarlson21\EbaySdk\Model\OrderSearchPagedCollection';
         $request = $this->getOrdersRequest($fieldGroups, $filter, $limit, $offset, $orderIds);
 
         try {
@@ -443,7 +443,7 @@ class OrderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderSearchPagedCollection',
+                        '\Johncarlson21\EbaySdk\Model\OrderSearchPagedCollection',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -493,7 +493,7 @@ class OrderApi
      */
     public function getOrdersAsyncWithHttpInfo($fieldGroups = null, $filter = null, $limit = null, $offset = null, $orderIds = null)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderSearchPagedCollection';
+        $returnType = '\Johncarlson21\EbaySdk\Model\OrderSearchPagedCollection';
         $request = $this->getOrdersRequest($fieldGroups, $filter, $limit, $offset, $orderIds);
 
         return $this->client
@@ -652,11 +652,11 @@ class OrderApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $orderId The unique identifier of the order. Order IDs are returned in the &lt;b&gt;getOrders&lt;/b&gt; method (and &lt;b&gt;GetOrders&lt;/b&gt; call of Trading API). The &lt;b&gt;issueRefund&lt;/b&gt; method supports the legacy API Order IDs and REST API order IDs. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\IssueRefundRequest $body body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\IssueRefundRequest $body body (optional)
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Refund
+     * @return \Johncarlson21\EbaySdk\Model\Refund
      */
     public function issueRefund($contentType, $orderId, $body = null)
     {
@@ -671,15 +671,15 @@ class OrderApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $orderId The unique identifier of the order. Order IDs are returned in the &lt;b&gt;getOrders&lt;/b&gt; method (and &lt;b&gt;GetOrders&lt;/b&gt; call of Trading API). The &lt;b&gt;issueRefund&lt;/b&gt; method supports the legacy API Order IDs and REST API order IDs. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\IssueRefundRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\IssueRefundRequest $body (optional)
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Refund, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Johncarlson21\EbaySdk\Model\Refund, HTTP status code, HTTP response headers (array of strings)
      */
     public function issueRefundWithHttpInfo($contentType, $orderId, $body = null)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Refund';
+        $returnType = '\Johncarlson21\EbaySdk\Model\Refund';
         $request = $this->issueRefundRequest($contentType, $orderId, $body);
 
         try {
@@ -731,7 +731,7 @@ class OrderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Refund',
+                        '\Johncarlson21\EbaySdk\Model\Refund',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -748,7 +748,7 @@ class OrderApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $orderId The unique identifier of the order. Order IDs are returned in the &lt;b&gt;getOrders&lt;/b&gt; method (and &lt;b&gt;GetOrders&lt;/b&gt; call of Trading API). The &lt;b&gt;issueRefund&lt;/b&gt; method supports the legacy API Order IDs and REST API order IDs. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\IssueRefundRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\IssueRefundRequest $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -770,14 +770,14 @@ class OrderApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $orderId The unique identifier of the order. Order IDs are returned in the &lt;b&gt;getOrders&lt;/b&gt; method (and &lt;b&gt;GetOrders&lt;/b&gt; call of Trading API). The &lt;b&gt;issueRefund&lt;/b&gt; method supports the legacy API Order IDs and REST API order IDs. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\IssueRefundRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\IssueRefundRequest $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function issueRefundAsyncWithHttpInfo($contentType, $orderId, $body = null)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Refund';
+        $returnType = '\Johncarlson21\EbaySdk\Model\Refund';
         $request = $this->issueRefundRequest($contentType, $orderId, $body);
 
         return $this->client
@@ -822,7 +822,7 @@ class OrderApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $orderId The unique identifier of the order. Order IDs are returned in the &lt;b&gt;getOrders&lt;/b&gt; method (and &lt;b&gt;GetOrders&lt;/b&gt; call of Trading API). The &lt;b&gt;issueRefund&lt;/b&gt; method supports the legacy API Order IDs and REST API order IDs. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\IssueRefundRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\IssueRefundRequest $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

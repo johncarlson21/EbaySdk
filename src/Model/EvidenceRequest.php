@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -59,7 +59,7 @@ class EvidenceRequest implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'evidenceId' => 'string',
         'evidenceType' => 'string',
-        'lineItems' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderLineItems[]',
+        'lineItems' => '\Johncarlson21\EbaySdk\Model\OrderLineItems[]',
         'requestDate' => 'string',
         'respondByDate' => 'string'
     ];
@@ -277,7 +277,7 @@ class EvidenceRequest implements ModelInterface, ArrayAccess
     /**
      * Gets lineItems
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderLineItems[]
+     * @return \Johncarlson21\EbaySdk\Model\OrderLineItems[]
      */
     public function getLineItems()
     {
@@ -287,7 +287,7 @@ class EvidenceRequest implements ModelInterface, ArrayAccess
     /**
      * Sets lineItems
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderLineItems[] $lineItems This array shows one or more order line items associated with the evidential document that has been provided.
+     * @param \Johncarlson21\EbaySdk\Model\OrderLineItems[] $lineItems This array shows one or more order line items associated with the evidential document that has been provided.
      *
      * @return $this
      */

@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -58,7 +58,7 @@ class CancelStatus implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'cancelledDate' => 'string',
-        'cancelRequests' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\CancelRequest[]',
+        'cancelRequests' => '\Johncarlson21\EbaySdk\Model\CancelRequest[]',
         'cancelState' => 'string'
     ];
 
@@ -241,7 +241,7 @@ class CancelStatus implements ModelInterface, ArrayAccess
     /**
      * Gets cancelRequests
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\CancelRequest[]
+     * @return \Johncarlson21\EbaySdk\Model\CancelRequest[]
      */
     public function getCancelRequests()
     {
@@ -251,7 +251,7 @@ class CancelStatus implements ModelInterface, ArrayAccess
     /**
      * Sets cancelRequests
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\CancelRequest[] $cancelRequests This array contains details of one or more buyer requests to cancel the order. <br><br><b>For the getOrders call:</b>  This array is returned but is always empty.<br><b>For the getOrder call:</b> This array is returned fully populated with information about any cancellation requests.
+     * @param \Johncarlson21\EbaySdk\Model\CancelRequest[] $cancelRequests This array contains details of one or more buyer requests to cancel the order. <br><br><b>For the getOrders call:</b>  This array is returned but is always empty.<br><b>For the getOrder call:</b> This array is returned fully populated with information about any cancellation requests.
      *
      * @return $this
      */

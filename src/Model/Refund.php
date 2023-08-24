@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;

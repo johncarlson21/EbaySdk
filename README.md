@@ -60,7 +60,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 // Configure OAuth2 access token for authorization: api_auth
 $config = Johncarlson21\EbaySdk\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\OrderApi(
+$apiInstance = new Johncarlson21\EbaySdk\Api\OrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -79,7 +79,7 @@ try {
 // Configure OAuth2 access token for authorization: api_auth
 $config = Johncarlson21\EbaySdk\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\OrderApi(
+$apiInstance = new Johncarlson21\EbaySdk\Api\OrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -101,7 +101,7 @@ try {
 // Configure OAuth2 access token for authorization: api_auth
 $config = Johncarlson21\EbaySdk\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\OrderApi(
+$apiInstance = new Johncarlson21\EbaySdk\Api\OrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -109,7 +109,7 @@ $apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\OrderApi(
 );
 $contentType = "contentType_example"; // string | This header indicates the format of the request body provided by the client. Its value should be set to <b>application/json</b>. <br><br> For more information, refer to <a href=\"/api-docs/static/rest-request-components.html#HTTP\" target=\"_blank \">HTTP request headers</a>.
 $orderId = "orderId_example"; // string | The unique identifier of the order. Order IDs are returned in the <b>getOrders</b> method (and <b>GetOrders</b> call of Trading API). The <b>issueRefund</b> method supports the legacy API Order IDs and REST API order IDs.
-$body = new \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\IssueRefundRequest(); // \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\IssueRefundRequest | 
+$body = new \Johncarlson21\EbaySdk\Model\IssueRefundRequest(); // \Johncarlson21\EbaySdk\Model\IssueRefundRequest | 
 
 try {
     $result = $apiInstance->issueRefund($contentType, $orderId, $body);

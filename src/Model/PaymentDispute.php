@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,24 +57,24 @@ class PaymentDispute implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'amount' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount',
+        'amount' => '\Johncarlson21\EbaySdk\Model\SimpleAmount',
         'availableChoices' => 'string[]',
-        'buyerProvided' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\InfoFromBuyer',
+        'buyerProvided' => '\Johncarlson21\EbaySdk\Model\InfoFromBuyer',
         'buyerUsername' => 'string',
         'closedDate' => 'string',
-        'evidence' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\DisputeEvidence[]',
-        'evidenceRequests' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EvidenceRequest[]',
-        'lineItems' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderLineItems[]',
-        'monetaryTransactions' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\MonetaryTransaction[]',
+        'evidence' => '\Johncarlson21\EbaySdk\Model\DisputeEvidence[]',
+        'evidenceRequests' => '\Johncarlson21\EbaySdk\Model\EvidenceRequest[]',
+        'lineItems' => '\Johncarlson21\EbaySdk\Model\OrderLineItems[]',
+        'monetaryTransactions' => '\Johncarlson21\EbaySdk\Model\MonetaryTransaction[]',
         'note' => 'string',
         'openDate' => 'string',
         'orderId' => 'string',
         'paymentDisputeId' => 'string',
         'paymentDisputeStatus' => 'string',
         'reason' => 'string',
-        'resolution' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDisputeOutcomeDetail',
+        'resolution' => '\Johncarlson21\EbaySdk\Model\PaymentDisputeOutcomeDetail',
         'respondByDate' => 'string',
-        'returnAddress' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ReturnAddress',
+        'returnAddress' => '\Johncarlson21\EbaySdk\Model\ReturnAddress',
         'revision' => 'int',
         'sellerResponse' => 'string'
     ];
@@ -319,7 +319,7 @@ class PaymentDispute implements ModelInterface, ArrayAccess
     /**
      * Gets amount
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount
+     * @return \Johncarlson21\EbaySdk\Model\SimpleAmount
      */
     public function getAmount()
     {
@@ -329,7 +329,7 @@ class PaymentDispute implements ModelInterface, ArrayAccess
     /**
      * Sets amount
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount $amount amount
+     * @param \Johncarlson21\EbaySdk\Model\SimpleAmount $amount amount
      *
      * @return $this
      */
@@ -367,7 +367,7 @@ class PaymentDispute implements ModelInterface, ArrayAccess
     /**
      * Gets buyerProvided
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\InfoFromBuyer
+     * @return \Johncarlson21\EbaySdk\Model\InfoFromBuyer
      */
     public function getBuyerProvided()
     {
@@ -377,7 +377,7 @@ class PaymentDispute implements ModelInterface, ArrayAccess
     /**
      * Sets buyerProvided
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\InfoFromBuyer $buyerProvided buyerProvided
+     * @param \Johncarlson21\EbaySdk\Model\InfoFromBuyer $buyerProvided buyerProvided
      *
      * @return $this
      */
@@ -439,7 +439,7 @@ class PaymentDispute implements ModelInterface, ArrayAccess
     /**
      * Gets evidence
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\DisputeEvidence[]
+     * @return \Johncarlson21\EbaySdk\Model\DisputeEvidence[]
      */
     public function getEvidence()
     {
@@ -449,7 +449,7 @@ class PaymentDispute implements ModelInterface, ArrayAccess
     /**
      * Sets evidence
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\DisputeEvidence[] $evidence This container shows any evidence that has been provided by the seller to contest the payment dispute. Evidence may include shipment tracking information, proof of authentication documentation, image(s) to proof that an item is as described, or financial documentation/invoice.<br><br>This container is only returned if the seller has provided at least one document used as evidence against the payment dispute.
+     * @param \Johncarlson21\EbaySdk\Model\DisputeEvidence[] $evidence This container shows any evidence that has been provided by the seller to contest the payment dispute. Evidence may include shipment tracking information, proof of authentication documentation, image(s) to proof that an item is as described, or financial documentation/invoice.<br><br>This container is only returned if the seller has provided at least one document used as evidence against the payment dispute.
      *
      * @return $this
      */
@@ -463,7 +463,7 @@ class PaymentDispute implements ModelInterface, ArrayAccess
     /**
      * Gets evidenceRequests
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EvidenceRequest[]
+     * @return \Johncarlson21\EbaySdk\Model\EvidenceRequest[]
      */
     public function getEvidenceRequests()
     {
@@ -473,7 +473,7 @@ class PaymentDispute implements ModelInterface, ArrayAccess
     /**
      * Sets evidenceRequests
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EvidenceRequest[] $evidenceRequests This container is returned if one or more evidence documents are being requested from the seller.
+     * @param \Johncarlson21\EbaySdk\Model\EvidenceRequest[] $evidenceRequests This container is returned if one or more evidence documents are being requested from the seller.
      *
      * @return $this
      */
@@ -487,7 +487,7 @@ class PaymentDispute implements ModelInterface, ArrayAccess
     /**
      * Gets lineItems
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderLineItems[]
+     * @return \Johncarlson21\EbaySdk\Model\OrderLineItems[]
      */
     public function getLineItems()
     {
@@ -497,7 +497,7 @@ class PaymentDispute implements ModelInterface, ArrayAccess
     /**
      * Sets lineItems
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderLineItems[] $lineItems This array is used to identify one or more order line items associated with the payment dispute. There will always be at least one <b>itemId</b>/<b>lineItemId</b> pair returned in this array.
+     * @param \Johncarlson21\EbaySdk\Model\OrderLineItems[] $lineItems This array is used to identify one or more order line items associated with the payment dispute. There will always be at least one <b>itemId</b>/<b>lineItemId</b> pair returned in this array.
      *
      * @return $this
      */
@@ -511,7 +511,7 @@ class PaymentDispute implements ModelInterface, ArrayAccess
     /**
      * Gets monetaryTransactions
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\MonetaryTransaction[]
+     * @return \Johncarlson21\EbaySdk\Model\MonetaryTransaction[]
      */
     public function getMonetaryTransactions()
     {
@@ -521,7 +521,7 @@ class PaymentDispute implements ModelInterface, ArrayAccess
     /**
      * Sets monetaryTransactions
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\MonetaryTransaction[] $monetaryTransactions This array provide details about one or more monetary transactions that occur as part of a payment dispute. This array is only returned once one or more monetary transacations occur with a payment dispute.
+     * @param \Johncarlson21\EbaySdk\Model\MonetaryTransaction[] $monetaryTransactions This array provide details about one or more monetary transactions that occur as part of a payment dispute. This array is only returned once one or more monetary transacations occur with a payment dispute.
      *
      * @return $this
      */
@@ -679,7 +679,7 @@ class PaymentDispute implements ModelInterface, ArrayAccess
     /**
      * Gets resolution
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDisputeOutcomeDetail
+     * @return \Johncarlson21\EbaySdk\Model\PaymentDisputeOutcomeDetail
      */
     public function getResolution()
     {
@@ -689,7 +689,7 @@ class PaymentDispute implements ModelInterface, ArrayAccess
     /**
      * Sets resolution
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDisputeOutcomeDetail $resolution resolution
+     * @param \Johncarlson21\EbaySdk\Model\PaymentDisputeOutcomeDetail $resolution resolution
      *
      * @return $this
      */
@@ -727,7 +727,7 @@ class PaymentDispute implements ModelInterface, ArrayAccess
     /**
      * Gets returnAddress
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ReturnAddress
+     * @return \Johncarlson21\EbaySdk\Model\ReturnAddress
      */
     public function getReturnAddress()
     {
@@ -737,7 +737,7 @@ class PaymentDispute implements ModelInterface, ArrayAccess
     /**
      * Sets returnAddress
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ReturnAddress $returnAddress returnAddress
+     * @param \Johncarlson21\EbaySdk\Model\ReturnAddress $returnAddress returnAddress
      *
      * @return $this
      */

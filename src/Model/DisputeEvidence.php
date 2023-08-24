@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -59,12 +59,12 @@ class DisputeEvidence implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'evidenceId' => 'string',
         'evidenceType' => 'string',
-        'files' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\FileInfo[]',
-        'lineItems' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderLineItems[]',
+        'files' => '\Johncarlson21\EbaySdk\Model\FileInfo[]',
+        'lineItems' => '\Johncarlson21\EbaySdk\Model\OrderLineItems[]',
         'providedDate' => 'string',
         'requestDate' => 'string',
         'respondByDate' => 'string',
-        'shipmentTracking' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\TrackingInfo[]'
+        'shipmentTracking' => '\Johncarlson21\EbaySdk\Model\TrackingInfo[]'
     ];
 
     /**
@@ -295,7 +295,7 @@ class DisputeEvidence implements ModelInterface, ArrayAccess
     /**
      * Gets files
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\FileInfo[]
+     * @return \Johncarlson21\EbaySdk\Model\FileInfo[]
      */
     public function getFiles()
     {
@@ -305,7 +305,7 @@ class DisputeEvidence implements ModelInterface, ArrayAccess
     /**
      * Sets files
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\FileInfo[] $files This array shows the name, ID, file type, and upload date for each provided file.
+     * @param \Johncarlson21\EbaySdk\Model\FileInfo[] $files This array shows the name, ID, file type, and upload date for each provided file.
      *
      * @return $this
      */
@@ -319,7 +319,7 @@ class DisputeEvidence implements ModelInterface, ArrayAccess
     /**
      * Gets lineItems
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderLineItems[]
+     * @return \Johncarlson21\EbaySdk\Model\OrderLineItems[]
      */
     public function getLineItems()
     {
@@ -329,7 +329,7 @@ class DisputeEvidence implements ModelInterface, ArrayAccess
     /**
      * Sets lineItems
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderLineItems[] $lineItems This array shows one or more order line items associated with the evidential document that has been provided.
+     * @param \Johncarlson21\EbaySdk\Model\OrderLineItems[] $lineItems This array shows one or more order line items associated with the evidential document that has been provided.
      *
      * @return $this
      */
@@ -415,7 +415,7 @@ class DisputeEvidence implements ModelInterface, ArrayAccess
     /**
      * Gets shipmentTracking
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\TrackingInfo[]
+     * @return \Johncarlson21\EbaySdk\Model\TrackingInfo[]
      */
     public function getShipmentTracking()
     {
@@ -425,7 +425,7 @@ class DisputeEvidence implements ModelInterface, ArrayAccess
     /**
      * Sets shipmentTracking
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\TrackingInfo[] $shipmentTracking This array shows the shipping carrier and shipment tracking number associated with each shipment package of the order. This array is returned under the <strong>evidence</strong> container if the seller has provided shipment tracking information as evidence to support <code>PROOF_OF_DELIVERY</code> for an INR-related payment dispute.
+     * @param \Johncarlson21\EbaySdk\Model\TrackingInfo[] $shipmentTracking This array shows the shipping carrier and shipment tracking number associated with each shipment package of the order. This array is returned under the <strong>evidence</strong> container if the seller has provided shipment tracking information as evidence to support <code>PROOF_OF_DELIVERY</code> for an INR-related payment dispute.
      *
      * @return $this
      */

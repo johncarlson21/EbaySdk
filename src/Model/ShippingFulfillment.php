@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -58,7 +58,7 @@ class ShippingFulfillment implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'fulfillmentId' => 'string',
-        'lineItems' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LineItemReference[]',
+        'lineItems' => '\Johncarlson21\EbaySdk\Model\LineItemReference[]',
         'shipmentTrackingNumber' => 'string',
         'shippedDate' => 'string',
         'shippingCarrierCode' => 'string'
@@ -253,7 +253,7 @@ class ShippingFulfillment implements ModelInterface, ArrayAccess
     /**
      * Gets lineItems
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LineItemReference[]
+     * @return \Johncarlson21\EbaySdk\Model\LineItemReference[]
      */
     public function getLineItems()
     {
@@ -263,7 +263,7 @@ class ShippingFulfillment implements ModelInterface, ArrayAccess
     /**
      * Sets lineItems
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LineItemReference[] $lineItems This array contains a list of one or more line items (and purchased quantity) to which the fulfillment applies.
+     * @param \Johncarlson21\EbaySdk\Model\LineItemReference[] $lineItems This array contains a list of one or more line items (and purchased quantity) to which the fulfillment applies.
      *
      * @return $this
      */

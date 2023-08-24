@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -64,7 +64,7 @@ class Error implements ModelInterface, ArrayAccess
         'longMessage' => 'string',
         'message' => 'string',
         'outputRefIds' => 'string[]',
-        'parameters' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ErrorParameter[]',
+        'parameters' => '\Johncarlson21\EbaySdk\Model\ErrorParameter[]',
         'subdomain' => 'string'
     ];
 
@@ -421,7 +421,7 @@ class Error implements ModelInterface, ArrayAccess
     /**
      * Gets parameters
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ErrorParameter[]
+     * @return \Johncarlson21\EbaySdk\Model\ErrorParameter[]
      */
     public function getParameters()
     {
@@ -431,7 +431,7 @@ class Error implements ModelInterface, ArrayAccess
     /**
      * Sets parameters
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ErrorParameter[] $parameters Contains a list of name-value pairs that provide additional information concerning this error or warning. Each item in the list is an input parameter that contributed to the error or warning condition.
+     * @param \Johncarlson21\EbaySdk\Model\ErrorParameter[] $parameters Contains a list of name-value pairs that provide additional information concerning this error or warning. Each item in the list is an input parameter that contributed to the error or warning condition.
      *
      * @return $this
      */

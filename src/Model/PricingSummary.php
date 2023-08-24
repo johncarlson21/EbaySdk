@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,14 +57,14 @@ class PricingSummary implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'adjustment' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
-        'deliveryCost' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
-        'deliveryDiscount' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
-        'fee' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
-        'priceDiscount' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
-        'priceSubtotal' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
-        'tax' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
-        'total' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount'
+        'adjustment' => '\Johncarlson21\EbaySdk\Model\Amount',
+        'deliveryCost' => '\Johncarlson21\EbaySdk\Model\Amount',
+        'deliveryDiscount' => '\Johncarlson21\EbaySdk\Model\Amount',
+        'fee' => '\Johncarlson21\EbaySdk\Model\Amount',
+        'priceDiscount' => '\Johncarlson21\EbaySdk\Model\Amount',
+        'priceSubtotal' => '\Johncarlson21\EbaySdk\Model\Amount',
+        'tax' => '\Johncarlson21\EbaySdk\Model\Amount',
+        'total' => '\Johncarlson21\EbaySdk\Model\Amount'
     ];
 
     /**
@@ -247,7 +247,7 @@ class PricingSummary implements ModelInterface, ArrayAccess
     /**
      * Gets adjustment
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getAdjustment()
     {
@@ -257,7 +257,7 @@ class PricingSummary implements ModelInterface, ArrayAccess
     /**
      * Sets adjustment
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $adjustment adjustment
+     * @param \Johncarlson21\EbaySdk\Model\Amount $adjustment adjustment
      *
      * @return $this
      */
@@ -271,7 +271,7 @@ class PricingSummary implements ModelInterface, ArrayAccess
     /**
      * Gets deliveryCost
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getDeliveryCost()
     {
@@ -281,7 +281,7 @@ class PricingSummary implements ModelInterface, ArrayAccess
     /**
      * Sets deliveryCost
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $deliveryCost deliveryCost
+     * @param \Johncarlson21\EbaySdk\Model\Amount $deliveryCost deliveryCost
      *
      * @return $this
      */
@@ -295,7 +295,7 @@ class PricingSummary implements ModelInterface, ArrayAccess
     /**
      * Gets deliveryDiscount
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getDeliveryDiscount()
     {
@@ -305,7 +305,7 @@ class PricingSummary implements ModelInterface, ArrayAccess
     /**
      * Sets deliveryDiscount
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $deliveryDiscount deliveryDiscount
+     * @param \Johncarlson21\EbaySdk\Model\Amount $deliveryDiscount deliveryDiscount
      *
      * @return $this
      */
@@ -319,7 +319,7 @@ class PricingSummary implements ModelInterface, ArrayAccess
     /**
      * Gets fee
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getFee()
     {
@@ -329,7 +329,7 @@ class PricingSummary implements ModelInterface, ArrayAccess
     /**
      * Sets fee
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $fee fee
+     * @param \Johncarlson21\EbaySdk\Model\Amount $fee fee
      *
      * @return $this
      */
@@ -343,7 +343,7 @@ class PricingSummary implements ModelInterface, ArrayAccess
     /**
      * Gets priceDiscount
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getPriceDiscount()
     {
@@ -353,7 +353,7 @@ class PricingSummary implements ModelInterface, ArrayAccess
     /**
      * Sets priceDiscount
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $priceDiscount priceDiscount
+     * @param \Johncarlson21\EbaySdk\Model\Amount $priceDiscount priceDiscount
      *
      * @return $this
      */
@@ -367,7 +367,7 @@ class PricingSummary implements ModelInterface, ArrayAccess
     /**
      * Gets priceSubtotal
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getPriceSubtotal()
     {
@@ -377,7 +377,7 @@ class PricingSummary implements ModelInterface, ArrayAccess
     /**
      * Sets priceSubtotal
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $priceSubtotal priceSubtotal
+     * @param \Johncarlson21\EbaySdk\Model\Amount $priceSubtotal priceSubtotal
      *
      * @return $this
      */
@@ -391,7 +391,7 @@ class PricingSummary implements ModelInterface, ArrayAccess
     /**
      * Gets tax
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getTax()
     {
@@ -401,7 +401,7 @@ class PricingSummary implements ModelInterface, ArrayAccess
     /**
      * Sets tax
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $tax tax
+     * @param \Johncarlson21\EbaySdk\Model\Amount $tax tax
      *
      * @return $this
      */
@@ -415,7 +415,7 @@ class PricingSummary implements ModelInterface, ArrayAccess
     /**
      * Gets total
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getTotal()
     {
@@ -425,7 +425,7 @@ class PricingSummary implements ModelInterface, ArrayAccess
     /**
      * Sets total
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $total total
+     * @param \Johncarlson21\EbaySdk\Model\Amount $total total
      *
      * @return $this
      */

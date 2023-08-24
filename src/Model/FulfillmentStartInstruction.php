@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -58,12 +58,12 @@ class FulfillmentStartInstruction implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'ebaySupportedFulfillment' => 'bool',
-        'finalDestinationAddress' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Address',
+        'finalDestinationAddress' => '\Johncarlson21\EbaySdk\Model\Address',
         'fulfillmentInstructionsType' => 'string',
         'maxEstimatedDeliveryDate' => 'string',
         'minEstimatedDeliveryDate' => 'string',
-        'pickupStep' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PickupStep',
-        'shippingStep' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingStep'
+        'pickupStep' => '\Johncarlson21\EbaySdk\Model\PickupStep',
+        'shippingStep' => '\Johncarlson21\EbaySdk\Model\ShippingStep'
     ];
 
     /**
@@ -265,7 +265,7 @@ class FulfillmentStartInstruction implements ModelInterface, ArrayAccess
     /**
      * Gets finalDestinationAddress
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Address
+     * @return \Johncarlson21\EbaySdk\Model\Address
      */
     public function getFinalDestinationAddress()
     {
@@ -275,7 +275,7 @@ class FulfillmentStartInstruction implements ModelInterface, ArrayAccess
     /**
      * Sets finalDestinationAddress
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Address $finalDestinationAddress finalDestinationAddress
+     * @param \Johncarlson21\EbaySdk\Model\Address $finalDestinationAddress finalDestinationAddress
      *
      * @return $this
      */
@@ -361,7 +361,7 @@ class FulfillmentStartInstruction implements ModelInterface, ArrayAccess
     /**
      * Gets pickupStep
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PickupStep
+     * @return \Johncarlson21\EbaySdk\Model\PickupStep
      */
     public function getPickupStep()
     {
@@ -371,7 +371,7 @@ class FulfillmentStartInstruction implements ModelInterface, ArrayAccess
     /**
      * Sets pickupStep
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PickupStep $pickupStep pickupStep
+     * @param \Johncarlson21\EbaySdk\Model\PickupStep $pickupStep pickupStep
      *
      * @return $this
      */
@@ -385,7 +385,7 @@ class FulfillmentStartInstruction implements ModelInterface, ArrayAccess
     /**
      * Gets shippingStep
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingStep
+     * @return \Johncarlson21\EbaySdk\Model\ShippingStep
      */
     public function getShippingStep()
     {
@@ -395,7 +395,7 @@ class FulfillmentStartInstruction implements ModelInterface, ArrayAccess
     /**
      * Sets shippingStep
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingStep $shippingStep shippingStep
+     * @param \Johncarlson21\EbaySdk\Model\ShippingStep $shippingStep shippingStep
      *
      * @return $this
      */

@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 **county** | **string** | The county of the return address. Counties are not applicable to all countries. | [optional] 
 **fullName** | **string** | The full name of return address owner. | [optional] 
 **postalCode** | **string** | The postal code of the return address. | [optional] 
-**primaryPhone** | [**\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Phone**](Phone.md) |  | [optional] 
+**primaryPhone** | [**\Johncarlson21\EbaySdk\Model\Phone**](Phone.md) |  | [optional] 
 **stateOrProvince** | **string** | The state or province of the return address. | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)

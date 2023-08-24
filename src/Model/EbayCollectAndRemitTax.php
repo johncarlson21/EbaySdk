@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,8 +57,8 @@ class EbayCollectAndRemitTax implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'amount' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
-        'ebayReference' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayTaxReference',
+        'amount' => '\Johncarlson21\EbaySdk\Model\Amount',
+        'ebayReference' => '\Johncarlson21\EbaySdk\Model\EbayTaxReference',
         'taxType' => 'string',
         'collectionMethod' => 'string'
     ];
@@ -223,7 +223,7 @@ class EbayCollectAndRemitTax implements ModelInterface, ArrayAccess
     /**
      * Gets amount
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getAmount()
     {
@@ -233,7 +233,7 @@ class EbayCollectAndRemitTax implements ModelInterface, ArrayAccess
     /**
      * Sets amount
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $amount amount
+     * @param \Johncarlson21\EbaySdk\Model\Amount $amount amount
      *
      * @return $this
      */
@@ -247,7 +247,7 @@ class EbayCollectAndRemitTax implements ModelInterface, ArrayAccess
     /**
      * Gets ebayReference
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayTaxReference
+     * @return \Johncarlson21\EbaySdk\Model\EbayTaxReference
      */
     public function getEbayReference()
     {
@@ -257,7 +257,7 @@ class EbayCollectAndRemitTax implements ModelInterface, ArrayAccess
     /**
      * Sets ebayReference
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayTaxReference $ebayReference ebayReference
+     * @param \Johncarlson21\EbaySdk\Model\EbayTaxReference $ebayReference ebayReference
      *
      * @return $this
      */

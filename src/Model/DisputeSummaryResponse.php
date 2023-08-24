@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -61,7 +61,7 @@ class DisputeSummaryResponse implements ModelInterface, ArrayAccess
         'limit' => 'int',
         'next' => 'string',
         'offset' => 'int',
-        'paymentDisputeSummaries' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDisputeSummary[]',
+        'paymentDisputeSummaries' => '\Johncarlson21\EbaySdk\Model\PaymentDisputeSummary[]',
         'prev' => 'string',
         'total' => 'int'
     ];
@@ -337,7 +337,7 @@ class DisputeSummaryResponse implements ModelInterface, ArrayAccess
     /**
      * Gets paymentDisputeSummaries
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDisputeSummary[]
+     * @return \Johncarlson21\EbaySdk\Model\PaymentDisputeSummary[]
      */
     public function getPaymentDisputeSummaries()
     {
@@ -347,7 +347,7 @@ class DisputeSummaryResponse implements ModelInterface, ArrayAccess
     /**
      * Sets paymentDisputeSummaries
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDisputeSummary[] $paymentDisputeSummaries Each payment dispute that matches the input criteria is returned under this array. If no payment disputes are found, an empty array is returned.
+     * @param \Johncarlson21\EbaySdk\Model\PaymentDisputeSummary[] $paymentDisputeSummaries Each payment dispute that matches the input criteria is returned under this array. If no payment disputes are found, an empty array is returned.
      *
      * @return $this
      */

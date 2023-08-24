@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -59,8 +59,8 @@ class IssueRefundRequest implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'reasonForRefund' => 'string',
         'comment' => 'string',
-        'refundItems' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\RefundItem[]',
-        'orderLevelRefundAmount' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount'
+        'refundItems' => '\Johncarlson21\EbaySdk\Model\RefundItem[]',
+        'orderLevelRefundAmount' => '\Johncarlson21\EbaySdk\Model\SimpleAmount'
     ];
 
     /**
@@ -271,7 +271,7 @@ class IssueRefundRequest implements ModelInterface, ArrayAccess
     /**
      * Gets refundItems
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\RefundItem[]
+     * @return \Johncarlson21\EbaySdk\Model\RefundItem[]
      */
     public function getRefundItems()
     {
@@ -281,7 +281,7 @@ class IssueRefundRequest implements ModelInterface, ArrayAccess
     /**
      * Sets refundItems
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\RefundItem[] $refundItems The <b>refundItems</b> array is only required if the seller is issuing a refund for one or more individual order line items in a multiple line item order. Otherwise, the seller just uses the <b>orderLevelRefundAmount</b> container to specify the amount of the refund for the entire order.
+     * @param \Johncarlson21\EbaySdk\Model\RefundItem[] $refundItems The <b>refundItems</b> array is only required if the seller is issuing a refund for one or more individual order line items in a multiple line item order. Otherwise, the seller just uses the <b>orderLevelRefundAmount</b> container to specify the amount of the refund for the entire order.
      *
      * @return $this
      */
@@ -295,7 +295,7 @@ class IssueRefundRequest implements ModelInterface, ArrayAccess
     /**
      * Gets orderLevelRefundAmount
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount
+     * @return \Johncarlson21\EbaySdk\Model\SimpleAmount
      */
     public function getOrderLevelRefundAmount()
     {
@@ -305,7 +305,7 @@ class IssueRefundRequest implements ModelInterface, ArrayAccess
     /**
      * Sets orderLevelRefundAmount
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount $orderLevelRefundAmount orderLevelRefundAmount
+     * @param \Johncarlson21\EbaySdk\Model\SimpleAmount $orderLevelRefundAmount orderLevelRefundAmount
      *
      * @return $this
      */

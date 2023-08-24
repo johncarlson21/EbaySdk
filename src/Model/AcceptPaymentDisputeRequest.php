@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,7 +57,7 @@ class AcceptPaymentDisputeRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'returnAddress' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ReturnAddress',
+        'returnAddress' => '\Johncarlson21\EbaySdk\Model\ReturnAddress',
         'revision' => 'int'
     ];
 
@@ -211,7 +211,7 @@ class AcceptPaymentDisputeRequest implements ModelInterface, ArrayAccess
     /**
      * Gets returnAddress
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ReturnAddress
+     * @return \Johncarlson21\EbaySdk\Model\ReturnAddress
      */
     public function getReturnAddress()
     {
@@ -221,7 +221,7 @@ class AcceptPaymentDisputeRequest implements ModelInterface, ArrayAccess
     /**
      * Sets returnAddress
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ReturnAddress $returnAddress returnAddress
+     * @param \Johncarlson21\EbaySdk\Model\ReturnAddress $returnAddress returnAddress
      *
      * @return $this
      */

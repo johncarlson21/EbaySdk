@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,11 +57,11 @@ class Program implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'authenticityVerification' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PostSaleAuthenticationProgram',
-        'ebayShipping' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayShipping',
-        'ebayVault' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayVaultProgram',
-        'ebayInternationalShipping' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayInternationalShipping',
-        'fulfillmentProgram' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayFulfillmentProgram'
+        'authenticityVerification' => '\Johncarlson21\EbaySdk\Model\PostSaleAuthenticationProgram',
+        'ebayShipping' => '\Johncarlson21\EbaySdk\Model\EbayShipping',
+        'ebayVault' => '\Johncarlson21\EbaySdk\Model\EbayVaultProgram',
+        'ebayInternationalShipping' => '\Johncarlson21\EbaySdk\Model\EbayInternationalShipping',
+        'fulfillmentProgram' => '\Johncarlson21\EbaySdk\Model\EbayFulfillmentProgram'
     ];
 
     /**
@@ -229,7 +229,7 @@ class Program implements ModelInterface, ArrayAccess
     /**
      * Gets authenticityVerification
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PostSaleAuthenticationProgram
+     * @return \Johncarlson21\EbaySdk\Model\PostSaleAuthenticationProgram
      */
     public function getAuthenticityVerification()
     {
@@ -239,7 +239,7 @@ class Program implements ModelInterface, ArrayAccess
     /**
      * Sets authenticityVerification
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PostSaleAuthenticationProgram $authenticityVerification authenticityVerification
+     * @param \Johncarlson21\EbaySdk\Model\PostSaleAuthenticationProgram $authenticityVerification authenticityVerification
      *
      * @return $this
      */
@@ -253,7 +253,7 @@ class Program implements ModelInterface, ArrayAccess
     /**
      * Gets ebayShipping
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayShipping
+     * @return \Johncarlson21\EbaySdk\Model\EbayShipping
      */
     public function getEbayShipping()
     {
@@ -263,7 +263,7 @@ class Program implements ModelInterface, ArrayAccess
     /**
      * Sets ebayShipping
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayShipping $ebayShipping ebayShipping
+     * @param \Johncarlson21\EbaySdk\Model\EbayShipping $ebayShipping ebayShipping
      *
      * @return $this
      */
@@ -277,7 +277,7 @@ class Program implements ModelInterface, ArrayAccess
     /**
      * Gets ebayVault
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayVaultProgram
+     * @return \Johncarlson21\EbaySdk\Model\EbayVaultProgram
      */
     public function getEbayVault()
     {
@@ -287,7 +287,7 @@ class Program implements ModelInterface, ArrayAccess
     /**
      * Sets ebayVault
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayVaultProgram $ebayVault ebayVault
+     * @param \Johncarlson21\EbaySdk\Model\EbayVaultProgram $ebayVault ebayVault
      *
      * @return $this
      */
@@ -301,7 +301,7 @@ class Program implements ModelInterface, ArrayAccess
     /**
      * Gets ebayInternationalShipping
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayInternationalShipping
+     * @return \Johncarlson21\EbaySdk\Model\EbayInternationalShipping
      */
     public function getEbayInternationalShipping()
     {
@@ -311,7 +311,7 @@ class Program implements ModelInterface, ArrayAccess
     /**
      * Sets ebayInternationalShipping
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayInternationalShipping $ebayInternationalShipping ebayInternationalShipping
+     * @param \Johncarlson21\EbaySdk\Model\EbayInternationalShipping $ebayInternationalShipping ebayInternationalShipping
      *
      * @return $this
      */
@@ -325,7 +325,7 @@ class Program implements ModelInterface, ArrayAccess
     /**
      * Gets fulfillmentProgram
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayFulfillmentProgram
+     * @return \Johncarlson21\EbaySdk\Model\EbayFulfillmentProgram
      */
     public function getFulfillmentProgram()
     {
@@ -335,7 +335,7 @@ class Program implements ModelInterface, ArrayAccess
     /**
      * Sets fulfillmentProgram
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayFulfillmentProgram $fulfillmentProgram fulfillmentProgram
+     * @param \Johncarlson21\EbaySdk\Model\EbayFulfillmentProgram $fulfillmentProgram fulfillmentProgram
      *
      * @return $this
      */

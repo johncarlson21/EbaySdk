@@ -29,7 +29,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 // Configure OAuth2 access token for authorization: api_auth
 $config = Johncarlson21\EbaySdk\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\PaymentDisputeApi(
+$apiInstance = new Johncarlson21\EbaySdk\Api\PaymentDisputeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -37,7 +37,7 @@ $apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\PaymentDisput
 );
 $contentType = "contentType_example"; // string | This header indicates the format of the request body provided by the client. Its value should be set to <b>application/json</b>. <br><br> For more information, refer to <a href=\"/api-docs/static/rest-request-components.html#HTTP\" target=\"_blank \">HTTP request headers</a>.
 $paymentDisputeId = "paymentDisputeId_example"; // string | This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to accept. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the <strong>paymentDisputeId</strong> field in the <strong>getPaymentDisputeSummaries</strong> response.<br><br>This path parameter is required, and the actual identifier value is passed in right after the <strong>payment_dispute</strong> resource. See the Resource URI above.
-$body = new \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AcceptPaymentDisputeRequest(); // \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AcceptPaymentDisputeRequest | 
+$body = new \Johncarlson21\EbaySdk\Model\AcceptPaymentDisputeRequest(); // \Johncarlson21\EbaySdk\Model\AcceptPaymentDisputeRequest | 
 
 try {
     $apiInstance->acceptPaymentDispute($contentType, $paymentDisputeId, $body);
@@ -53,7 +53,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **contentType** | **string**| This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. |
  **paymentDisputeId** | **string**| This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to accept. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. |
- **body** | [**\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AcceptPaymentDisputeRequest**](../Model/AcceptPaymentDisputeRequest.md)|  | [optional]
+ **body** | [**\Johncarlson21\EbaySdk\Model\AcceptPaymentDisputeRequest**](../Model/AcceptPaymentDisputeRequest.md)|  | [optional]
 
 ### Return type
 
@@ -71,7 +71,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **addEvidence**
-> \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeResponse addEvidence($contentType, $paymentDisputeId, $body)
+> \Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeResponse addEvidence($contentType, $paymentDisputeId, $body)
 
 Add an Evidence File
 
@@ -85,7 +85,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 // Configure OAuth2 access token for authorization: api_auth
 $config = Johncarlson21\EbaySdk\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\PaymentDisputeApi(
+$apiInstance = new Johncarlson21\EbaySdk\Api\PaymentDisputeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -93,7 +93,7 @@ $apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\PaymentDisput
 );
 $contentType = "contentType_example"; // string | This header indicates the format of the request body provided by the client. Its value should be set to <b>application/json</b>. <br><br> For more information, refer to <a href=\"/api-docs/static/rest-request-components.html#HTTP\" target=\"_blank \">HTTP request headers</a>.
 $paymentDisputeId = "paymentDisputeId_example"; // string | This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to add evidence for a contested payment dispute. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the <strong>paymentDisputeId</strong> field in the <strong>getPaymentDisputeSummaries</strong> response.<br><br>This path parameter is required, and the actual identifier value is passed in right after the <strong>payment_dispute</strong> resource. See the Resource URI above.
-$body = new \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeRequest(); // \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeRequest | 
+$body = new \Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeRequest(); // \Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeRequest | 
 
 try {
     $result = $apiInstance->addEvidence($contentType, $paymentDisputeId, $body);
@@ -110,11 +110,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **contentType** | **string**| This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. |
  **paymentDisputeId** | **string**| This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to add evidence for a contested payment dispute. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. |
- **body** | [**\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeRequest**](../Model/AddEvidencePaymentDisputeRequest.md)|  | [optional]
+ **body** | [**\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeRequest**](../Model/AddEvidencePaymentDisputeRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeResponse**](../Model/AddEvidencePaymentDisputeResponse.md)
+[**\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeResponse**](../Model/AddEvidencePaymentDisputeResponse.md)
 
 ### Authorization
 
@@ -142,7 +142,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 // Configure OAuth2 access token for authorization: api_auth
 $config = Johncarlson21\EbaySdk\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\PaymentDisputeApi(
+$apiInstance = new Johncarlson21\EbaySdk\Api\PaymentDisputeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -150,7 +150,7 @@ $apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\PaymentDisput
 );
 $contentType = "contentType_example"; // string | This header indicates the format of the request body provided by the client. Its value should be set to <b>application/json</b>. <br><br> For more information, refer to <a href=\"/api-docs/static/rest-request-components.html#HTTP\" target=\"_blank \">HTTP request headers</a>.
 $paymentDisputeId = "paymentDisputeId_example"; // string | This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to contest. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the <strong>paymentDisputeId</strong> field in the <strong>getPaymentDisputeSummaries</strong> response.<br><br>This path parameter is required, and the actual identifier value is passed in right after the <strong>payment_dispute</strong> resource. See the Resource URI above.
-$body = new \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ContestPaymentDisputeRequest(); // \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ContestPaymentDisputeRequest | 
+$body = new \Johncarlson21\EbaySdk\Model\ContestPaymentDisputeRequest(); // \Johncarlson21\EbaySdk\Model\ContestPaymentDisputeRequest | 
 
 try {
     $apiInstance->contestPaymentDispute($contentType, $paymentDisputeId, $body);
@@ -166,7 +166,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **contentType** | **string**| This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. |
  **paymentDisputeId** | **string**| This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to contest. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. |
- **body** | [**\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ContestPaymentDisputeRequest**](../Model/ContestPaymentDisputeRequest.md)|  | [optional]
+ **body** | [**\Johncarlson21\EbaySdk\Model\ContestPaymentDisputeRequest**](../Model/ContestPaymentDisputeRequest.md)|  | [optional]
 
 ### Return type
 
@@ -198,7 +198,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 // Configure OAuth2 access token for authorization: api_auth
 $config = Johncarlson21\EbaySdk\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\PaymentDisputeApi(
+$apiInstance = new Johncarlson21\EbaySdk\Api\PaymentDisputeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -241,7 +241,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getActivities**
-> \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDisputeActivityHistory getActivities($paymentDisputeId)
+> \Johncarlson21\EbaySdk\Model\PaymentDisputeActivityHistory getActivities($paymentDisputeId)
 
 Get Payment Dispute Activity
 
@@ -255,7 +255,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 // Configure OAuth2 access token for authorization: api_auth
 $config = Johncarlson21\EbaySdk\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\PaymentDisputeApi(
+$apiInstance = new Johncarlson21\EbaySdk\Api\PaymentDisputeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -280,7 +280,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDisputeActivityHistory**](../Model/PaymentDisputeActivityHistory.md)
+[**\Johncarlson21\EbaySdk\Model\PaymentDisputeActivityHistory**](../Model/PaymentDisputeActivityHistory.md)
 
 ### Authorization
 
@@ -294,7 +294,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPaymentDispute**
-> \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDispute getPaymentDispute($paymentDisputeId)
+> \Johncarlson21\EbaySdk\Model\PaymentDispute getPaymentDispute($paymentDisputeId)
 
 Get Payment Dispute Details
 
@@ -308,7 +308,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 // Configure OAuth2 access token for authorization: api_auth
 $config = Johncarlson21\EbaySdk\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\PaymentDisputeApi(
+$apiInstance = new Johncarlson21\EbaySdk\Api\PaymentDisputeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -333,7 +333,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDispute**](../Model/PaymentDispute.md)
+[**\Johncarlson21\EbaySdk\Model\PaymentDispute**](../Model/PaymentDispute.md)
 
 ### Authorization
 
@@ -347,7 +347,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPaymentDisputeSummaries**
-> \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\DisputeSummaryResponse getPaymentDisputeSummaries($orderId, $buyerUsername, $openDateFrom, $openDateTo, $paymentDisputeStatus, $limit, $offset)
+> \Johncarlson21\EbaySdk\Model\DisputeSummaryResponse getPaymentDisputeSummaries($orderId, $buyerUsername, $openDateFrom, $openDateTo, $paymentDisputeStatus, $limit, $offset)
 
 Search Payment Dispute by Filters
 
@@ -361,7 +361,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 // Configure OAuth2 access token for authorization: api_auth
 $config = Johncarlson21\EbaySdk\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\PaymentDisputeApi(
+$apiInstance = new Johncarlson21\EbaySdk\Api\PaymentDisputeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -398,7 +398,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\DisputeSummaryResponse**](../Model/DisputeSummaryResponse.md)
+[**\Johncarlson21\EbaySdk\Model\DisputeSummaryResponse**](../Model/DisputeSummaryResponse.md)
 
 ### Authorization
 
@@ -426,7 +426,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 // Configure OAuth2 access token for authorization: api_auth
 $config = Johncarlson21\EbaySdk\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\PaymentDisputeApi(
+$apiInstance = new Johncarlson21\EbaySdk\Api\PaymentDisputeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -434,7 +434,7 @@ $apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\PaymentDisput
 );
 $contentType = "contentType_example"; // string | This header indicates the format of the request body provided by the client. Its value should be set to <b>application/json</b>. <br><br> For more information, refer to <a href=\"/api-docs/static/rest-request-components.html#HTTP\" target=\"_blank \">HTTP request headers</a>.
 $paymentDisputeId = "paymentDisputeId_example"; // string | This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to update the evidence set for a contested payment dispute. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the <strong>paymentDisputeId</strong> field in the <strong>getPaymentDisputeSummaries</strong> response.<br><br>This path parameter is required, and the actual identifier value is passed in right after the <strong>payment_dispute</strong> resource. See the Resource URI above.
-$body = new \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\UpdateEvidencePaymentDisputeRequest(); // \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\UpdateEvidencePaymentDisputeRequest | 
+$body = new \Johncarlson21\EbaySdk\Model\UpdateEvidencePaymentDisputeRequest(); // \Johncarlson21\EbaySdk\Model\UpdateEvidencePaymentDisputeRequest | 
 
 try {
     $apiInstance->updateEvidence($contentType, $paymentDisputeId, $body);
@@ -450,7 +450,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **contentType** | **string**| This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. |
  **paymentDisputeId** | **string**| This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to update the evidence set for a contested payment dispute. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. |
- **body** | [**\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\UpdateEvidencePaymentDisputeRequest**](../Model/UpdateEvidencePaymentDisputeRequest.md)|  | [optional]
+ **body** | [**\Johncarlson21\EbaySdk\Model\UpdateEvidencePaymentDisputeRequest**](../Model/UpdateEvidencePaymentDisputeRequest.md)|  | [optional]
 
 ### Return type
 
@@ -468,7 +468,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **uploadEvidenceFile**
-> \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\FileEvidence uploadEvidenceFile($paymentDisputeId, $contentType)
+> \Johncarlson21\EbaySdk\Model\FileEvidence uploadEvidenceFile($paymentDisputeId, $contentType)
 
 Upload an Evidence File
 
@@ -482,7 +482,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 // Configure OAuth2 access token for authorization: api_auth
 $config = Johncarlson21\EbaySdk\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\PaymentDisputeApi(
+$apiInstance = new Johncarlson21\EbaySdk\Api\PaymentDisputeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -509,7 +509,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\FileEvidence**](../Model/FileEvidence.md)
+[**\Johncarlson21\EbaySdk\Model\FileEvidence**](../Model/FileEvidence.md)
 
 ### Authorization
 

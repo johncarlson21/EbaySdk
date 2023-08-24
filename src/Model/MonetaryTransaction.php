@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -60,7 +60,7 @@ class MonetaryTransaction implements ModelInterface, ArrayAccess
         'date' => 'string',
         'type' => 'string',
         'reason' => 'string',
-        'amount' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\DisputeAmount'
+        'amount' => '\Johncarlson21\EbaySdk\Model\DisputeAmount'
     ];
 
     /**
@@ -295,7 +295,7 @@ class MonetaryTransaction implements ModelInterface, ArrayAccess
     /**
      * Gets amount
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\DisputeAmount
+     * @return \Johncarlson21\EbaySdk\Model\DisputeAmount
      */
     public function getAmount()
     {
@@ -305,7 +305,7 @@ class MonetaryTransaction implements ModelInterface, ArrayAccess
     /**
      * Sets amount
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\DisputeAmount $amount amount
+     * @param \Johncarlson21\EbaySdk\Model\DisputeAmount $amount amount
      *
      * @return $this
      */

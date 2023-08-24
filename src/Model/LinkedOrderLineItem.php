@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,13 +57,13 @@ class LinkedOrderLineItem implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'lineItemAspects' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\NameValuePair[]',
+        'lineItemAspects' => '\Johncarlson21\EbaySdk\Model\NameValuePair[]',
         'lineItemId' => 'string',
         'maxEstimatedDeliveryDate' => 'string',
         'minEstimatedDeliveryDate' => 'string',
         'orderId' => 'string',
         'sellerId' => 'string',
-        'shipments' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\TrackingInfo[]',
+        'shipments' => '\Johncarlson21\EbaySdk\Model\TrackingInfo[]',
         'title' => 'string'
     ];
 
@@ -247,7 +247,7 @@ class LinkedOrderLineItem implements ModelInterface, ArrayAccess
     /**
      * Gets lineItemAspects
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\NameValuePair[]
+     * @return \Johncarlson21\EbaySdk\Model\NameValuePair[]
      */
     public function getLineItemAspects()
     {
@@ -257,7 +257,7 @@ class LinkedOrderLineItem implements ModelInterface, ArrayAccess
     /**
      * Sets lineItemAspects
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\NameValuePair[] $lineItemAspects This array contains the complete set of items aspects for the linked line item. For example:<br><pre>\"lineItemAspects\": [<br>    {<br>        \"name\": \"Tire Type\",<br>        \"value\": \"All Season\"<br>    },<br><br>    ...<br> <br>    {<br>        \"name\": \"Car Type\",<br>        \"value\": \"Performance\"<br>    }<br>]</pre><span class=\"tablenote\"><strong>Note:</strong> All item specifics for the listing are returned. The name/value pairs returned are in the language of the linked line item's listing site, which may vary from the seller's language.</span>
+     * @param \Johncarlson21\EbaySdk\Model\NameValuePair[] $lineItemAspects This array contains the complete set of items aspects for the linked line item. For example:<br><pre>\"lineItemAspects\": [<br>    {<br>        \"name\": \"Tire Type\",<br>        \"value\": \"All Season\"<br>    },<br><br>    ...<br> <br>    {<br>        \"name\": \"Car Type\",<br>        \"value\": \"Performance\"<br>    }<br>]</pre><span class=\"tablenote\"><strong>Note:</strong> All item specifics for the listing are returned. The name/value pairs returned are in the language of the linked line item's listing site, which may vary from the seller's language.</span>
      *
      * @return $this
      */
@@ -391,7 +391,7 @@ class LinkedOrderLineItem implements ModelInterface, ArrayAccess
     /**
      * Gets shipments
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\TrackingInfo[]
+     * @return \Johncarlson21\EbaySdk\Model\TrackingInfo[]
      */
     public function getShipments()
     {
@@ -401,7 +401,7 @@ class LinkedOrderLineItem implements ModelInterface, ArrayAccess
     /**
      * Sets shipments
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\TrackingInfo[] $shipments An array containing any shipment tracking information available for the linked line item.
+     * @param \Johncarlson21\EbaySdk\Model\TrackingInfo[] $shipments An array containing any shipment tracking information available for the linked line item.
      *
      * @return $this
      */

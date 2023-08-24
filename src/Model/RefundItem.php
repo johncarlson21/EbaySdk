@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,9 +57,9 @@ class RefundItem implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'refundAmount' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount',
+        'refundAmount' => '\Johncarlson21\EbaySdk\Model\SimpleAmount',
         'lineItemId' => 'string',
-        'legacyReference' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LegacyReference'
+        'legacyReference' => '\Johncarlson21\EbaySdk\Model\LegacyReference'
     ];
 
     /**
@@ -217,7 +217,7 @@ class RefundItem implements ModelInterface, ArrayAccess
     /**
      * Gets refundAmount
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount
+     * @return \Johncarlson21\EbaySdk\Model\SimpleAmount
      */
     public function getRefundAmount()
     {
@@ -227,7 +227,7 @@ class RefundItem implements ModelInterface, ArrayAccess
     /**
      * Sets refundAmount
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount $refundAmount refundAmount
+     * @param \Johncarlson21\EbaySdk\Model\SimpleAmount $refundAmount refundAmount
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class RefundItem implements ModelInterface, ArrayAccess
     /**
      * Gets legacyReference
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LegacyReference
+     * @return \Johncarlson21\EbaySdk\Model\LegacyReference
      */
     public function getLegacyReference()
     {
@@ -275,7 +275,7 @@ class RefundItem implements ModelInterface, ArrayAccess
     /**
      * Sets legacyReference
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LegacyReference $legacyReference legacyReference
+     * @param \Johncarlson21\EbaySdk\Model\LegacyReference $legacyReference legacyReference
      *
      * @return $this
      */

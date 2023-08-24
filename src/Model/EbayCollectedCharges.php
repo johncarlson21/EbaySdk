@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,7 +57,7 @@ class EbayCollectedCharges implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'ebayShipping' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount'
+        'ebayShipping' => '\Johncarlson21\EbaySdk\Model\Amount'
     ];
 
     /**
@@ -205,7 +205,7 @@ class EbayCollectedCharges implements ModelInterface, ArrayAccess
     /**
      * Gets ebayShipping
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getEbayShipping()
     {
@@ -215,7 +215,7 @@ class EbayCollectedCharges implements ModelInterface, ArrayAccess
     /**
      * Sets ebayShipping
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $ebayShipping ebayShipping
+     * @param \Johncarlson21\EbaySdk\Model\Amount $ebayShipping ebayShipping
      *
      * @return $this
      */

@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,7 +57,7 @@ class PaymentDisputeActivityHistory implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'activity' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDisputeActivity[]'
+        'activity' => '\Johncarlson21\EbaySdk\Model\PaymentDisputeActivity[]'
     ];
 
     /**
@@ -205,7 +205,7 @@ class PaymentDisputeActivityHistory implements ModelInterface, ArrayAccess
     /**
      * Gets activity
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDisputeActivity[]
+     * @return \Johncarlson21\EbaySdk\Model\PaymentDisputeActivity[]
      */
     public function getActivity()
     {
@@ -215,7 +215,7 @@ class PaymentDisputeActivityHistory implements ModelInterface, ArrayAccess
     /**
      * Sets activity
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDisputeActivity[] $activity This array holds all activities of a payment dispute, from creation to resolution. For each activity, the activity type, the actor, and a timestamp is shown. The <strong>getActivities</strong> response is dynamic, and grows with each recorded activity.
+     * @param \Johncarlson21\EbaySdk\Model\PaymentDisputeActivity[] $activity This array holds all activities of a payment dispute, from creation to resolution. For each activity, the activity type, the actor, and a timestamp is shown. The <strong>getActivities</strong> response is dynamic, and grows with each recorded activity.
      *
      * @return $this
      */

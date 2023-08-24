@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,11 +57,11 @@ class DeliveryCost implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'discountAmount' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
-        'handlingCost' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
-        'importCharges' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
-        'shippingCost' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
-        'shippingIntermediationFee' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount'
+        'discountAmount' => '\Johncarlson21\EbaySdk\Model\Amount',
+        'handlingCost' => '\Johncarlson21\EbaySdk\Model\Amount',
+        'importCharges' => '\Johncarlson21\EbaySdk\Model\Amount',
+        'shippingCost' => '\Johncarlson21\EbaySdk\Model\Amount',
+        'shippingIntermediationFee' => '\Johncarlson21\EbaySdk\Model\Amount'
     ];
 
     /**
@@ -229,7 +229,7 @@ class DeliveryCost implements ModelInterface, ArrayAccess
     /**
      * Gets discountAmount
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getDiscountAmount()
     {
@@ -239,7 +239,7 @@ class DeliveryCost implements ModelInterface, ArrayAccess
     /**
      * Sets discountAmount
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $discountAmount discountAmount
+     * @param \Johncarlson21\EbaySdk\Model\Amount $discountAmount discountAmount
      *
      * @return $this
      */
@@ -253,7 +253,7 @@ class DeliveryCost implements ModelInterface, ArrayAccess
     /**
      * Gets handlingCost
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getHandlingCost()
     {
@@ -263,7 +263,7 @@ class DeliveryCost implements ModelInterface, ArrayAccess
     /**
      * Sets handlingCost
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $handlingCost handlingCost
+     * @param \Johncarlson21\EbaySdk\Model\Amount $handlingCost handlingCost
      *
      * @return $this
      */
@@ -277,7 +277,7 @@ class DeliveryCost implements ModelInterface, ArrayAccess
     /**
      * Gets importCharges
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getImportCharges()
     {
@@ -287,7 +287,7 @@ class DeliveryCost implements ModelInterface, ArrayAccess
     /**
      * Sets importCharges
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $importCharges importCharges
+     * @param \Johncarlson21\EbaySdk\Model\Amount $importCharges importCharges
      *
      * @return $this
      */
@@ -301,7 +301,7 @@ class DeliveryCost implements ModelInterface, ArrayAccess
     /**
      * Gets shippingCost
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getShippingCost()
     {
@@ -311,7 +311,7 @@ class DeliveryCost implements ModelInterface, ArrayAccess
     /**
      * Sets shippingCost
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $shippingCost shippingCost
+     * @param \Johncarlson21\EbaySdk\Model\Amount $shippingCost shippingCost
      *
      * @return $this
      */
@@ -325,7 +325,7 @@ class DeliveryCost implements ModelInterface, ArrayAccess
     /**
      * Gets shippingIntermediationFee
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getShippingIntermediationFee()
     {
@@ -335,7 +335,7 @@ class DeliveryCost implements ModelInterface, ArrayAccess
     /**
      * Sets shippingIntermediationFee
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $shippingIntermediationFee shippingIntermediationFee
+     * @param \Johncarlson21\EbaySdk\Model\Amount $shippingIntermediationFee shippingIntermediationFee
      *
      * @return $this
      */

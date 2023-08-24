@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -58,7 +58,7 @@ class AppliedPromotion implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'description' => 'string',
-        'discountAmount' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
+        'discountAmount' => '\Johncarlson21\EbaySdk\Model\Amount',
         'promotionId' => 'string'
     ];
 
@@ -241,7 +241,7 @@ class AppliedPromotion implements ModelInterface, ArrayAccess
     /**
      * Gets discountAmount
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getDiscountAmount()
     {
@@ -251,7 +251,7 @@ class AppliedPromotion implements ModelInterface, ArrayAccess
     /**
      * Sets discountAmount
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $discountAmount discountAmount
+     * @param \Johncarlson21\EbaySdk\Model\Amount $discountAmount discountAmount
      *
      * @return $this
      */

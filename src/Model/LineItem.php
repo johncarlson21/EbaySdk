@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,31 +57,31 @@ class LineItem implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'appliedPromotions' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AppliedPromotion[]',
-        'deliveryCost' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\DeliveryCost',
-        'discountedLineItemCost' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
-        'ebayCollectAndRemitTaxes' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayCollectAndRemitTax[]',
-        'ebayCollectedCharges' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayCollectedCharges',
-        'giftDetails' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\GiftDetails',
-        'itemLocation' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ItemLocation',
+        'appliedPromotions' => '\Johncarlson21\EbaySdk\Model\AppliedPromotion[]',
+        'deliveryCost' => '\Johncarlson21\EbaySdk\Model\DeliveryCost',
+        'discountedLineItemCost' => '\Johncarlson21\EbaySdk\Model\Amount',
+        'ebayCollectAndRemitTaxes' => '\Johncarlson21\EbaySdk\Model\EbayCollectAndRemitTax[]',
+        'ebayCollectedCharges' => '\Johncarlson21\EbaySdk\Model\EbayCollectedCharges',
+        'giftDetails' => '\Johncarlson21\EbaySdk\Model\GiftDetails',
+        'itemLocation' => '\Johncarlson21\EbaySdk\Model\ItemLocation',
         'legacyItemId' => 'string',
         'legacyVariationId' => 'string',
-        'lineItemCost' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
-        'lineItemFulfillmentInstructions' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LineItemFulfillmentInstructions',
+        'lineItemCost' => '\Johncarlson21\EbaySdk\Model\Amount',
+        'lineItemFulfillmentInstructions' => '\Johncarlson21\EbaySdk\Model\LineItemFulfillmentInstructions',
         'lineItemFulfillmentStatus' => 'string',
         'lineItemId' => 'string',
-        'linkedOrderLineItems' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LinkedOrderLineItem[]',
+        'linkedOrderLineItems' => '\Johncarlson21\EbaySdk\Model\LinkedOrderLineItem[]',
         'listingMarketplaceId' => 'string',
-        'properties' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LineItemProperties',
+        'properties' => '\Johncarlson21\EbaySdk\Model\LineItemProperties',
         'purchaseMarketplaceId' => 'string',
         'quantity' => 'int',
-        'refunds' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LineItemRefund[]',
+        'refunds' => '\Johncarlson21\EbaySdk\Model\LineItemRefund[]',
         'sku' => 'string',
         'soldFormat' => 'string',
-        'taxes' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Tax[]',
+        'taxes' => '\Johncarlson21\EbaySdk\Model\Tax[]',
         'title' => 'string',
-        'total' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
-        'variationAspects' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\NameValuePair[]'
+        'total' => '\Johncarlson21\EbaySdk\Model\Amount',
+        'variationAspects' => '\Johncarlson21\EbaySdk\Model\NameValuePair[]'
     ];
 
     /**
@@ -349,7 +349,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Gets appliedPromotions
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AppliedPromotion[]
+     * @return \Johncarlson21\EbaySdk\Model\AppliedPromotion[]
      */
     public function getAppliedPromotions()
     {
@@ -359,7 +359,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Sets appliedPromotions
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AppliedPromotion[] $appliedPromotions This array contains information about one or more sales promotions or discounts applied to the line item. It is always returned, but will be returned as an empty array if no special sales promotions or discounts apply to the order line item.
+     * @param \Johncarlson21\EbaySdk\Model\AppliedPromotion[] $appliedPromotions This array contains information about one or more sales promotions or discounts applied to the line item. It is always returned, but will be returned as an empty array if no special sales promotions or discounts apply to the order line item.
      *
      * @return $this
      */
@@ -373,7 +373,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Gets deliveryCost
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\DeliveryCost
+     * @return \Johncarlson21\EbaySdk\Model\DeliveryCost
      */
     public function getDeliveryCost()
     {
@@ -383,7 +383,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Sets deliveryCost
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\DeliveryCost $deliveryCost deliveryCost
+     * @param \Johncarlson21\EbaySdk\Model\DeliveryCost $deliveryCost deliveryCost
      *
      * @return $this
      */
@@ -397,7 +397,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Gets discountedLineItemCost
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getDiscountedLineItemCost()
     {
@@ -407,7 +407,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Sets discountedLineItemCost
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $discountedLineItemCost discountedLineItemCost
+     * @param \Johncarlson21\EbaySdk\Model\Amount $discountedLineItemCost discountedLineItemCost
      *
      * @return $this
      */
@@ -421,7 +421,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Gets ebayCollectAndRemitTaxes
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayCollectAndRemitTax[]
+     * @return \Johncarlson21\EbaySdk\Model\EbayCollectAndRemitTax[]
      */
     public function getEbayCollectAndRemitTaxes()
     {
@@ -431,7 +431,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Sets ebayCollectAndRemitTaxes
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayCollectAndRemitTax[] $ebayCollectAndRemitTaxes This container will be returned if the order line item is subject to a 'Collect and Remit' tax that eBay will collect and remit to the proper taxing authority on the buyer's behalf.<br><br>'Collect and Remit' tax includes:<ul><li>US state-mandated sales tax</li><li>Federal and Provincial Sales Tax in Canada</li><li>'Goods and Services' tax in Canada, Australia, New Zealand, and Jersey</li><li>VAT collected for the UK, EU countries, Kazakhstan, and Belarus</li><li>Sales & Service Tax (SST) in Malaysia</li></ul>The amount of this tax is shown in the <strong>amount</strong> field, and the type of tax is shown in the <strong>taxType</strong> field.<br><br>eBay will display the tax type and amount during checkout in accordance with the buyer's address, and handle collection and remittance of the tax without requiring the seller to take any action.
+     * @param \Johncarlson21\EbaySdk\Model\EbayCollectAndRemitTax[] $ebayCollectAndRemitTaxes This container will be returned if the order line item is subject to a 'Collect and Remit' tax that eBay will collect and remit to the proper taxing authority on the buyer's behalf.<br><br>'Collect and Remit' tax includes:<ul><li>US state-mandated sales tax</li><li>Federal and Provincial Sales Tax in Canada</li><li>'Goods and Services' tax in Canada, Australia, New Zealand, and Jersey</li><li>VAT collected for the UK, EU countries, Kazakhstan, and Belarus</li><li>Sales & Service Tax (SST) in Malaysia</li></ul>The amount of this tax is shown in the <strong>amount</strong> field, and the type of tax is shown in the <strong>taxType</strong> field.<br><br>eBay will display the tax type and amount during checkout in accordance with the buyer's address, and handle collection and remittance of the tax without requiring the seller to take any action.
      *
      * @return $this
      */
@@ -445,7 +445,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Gets ebayCollectedCharges
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayCollectedCharges
+     * @return \Johncarlson21\EbaySdk\Model\EbayCollectedCharges
      */
     public function getEbayCollectedCharges()
     {
@@ -455,7 +455,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Sets ebayCollectedCharges
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\EbayCollectedCharges $ebayCollectedCharges ebayCollectedCharges
+     * @param \Johncarlson21\EbaySdk\Model\EbayCollectedCharges $ebayCollectedCharges ebayCollectedCharges
      *
      * @return $this
      */
@@ -469,7 +469,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Gets giftDetails
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\GiftDetails
+     * @return \Johncarlson21\EbaySdk\Model\GiftDetails
      */
     public function getGiftDetails()
     {
@@ -479,7 +479,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Sets giftDetails
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\GiftDetails $giftDetails giftDetails
+     * @param \Johncarlson21\EbaySdk\Model\GiftDetails $giftDetails giftDetails
      *
      * @return $this
      */
@@ -493,7 +493,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Gets itemLocation
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ItemLocation
+     * @return \Johncarlson21\EbaySdk\Model\ItemLocation
      */
     public function getItemLocation()
     {
@@ -503,7 +503,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Sets itemLocation
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ItemLocation $itemLocation itemLocation
+     * @param \Johncarlson21\EbaySdk\Model\ItemLocation $itemLocation itemLocation
      *
      * @return $this
      */
@@ -565,7 +565,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Gets lineItemCost
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getLineItemCost()
     {
@@ -575,7 +575,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Sets lineItemCost
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $lineItemCost lineItemCost
+     * @param \Johncarlson21\EbaySdk\Model\Amount $lineItemCost lineItemCost
      *
      * @return $this
      */
@@ -589,7 +589,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Gets lineItemFulfillmentInstructions
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LineItemFulfillmentInstructions
+     * @return \Johncarlson21\EbaySdk\Model\LineItemFulfillmentInstructions
      */
     public function getLineItemFulfillmentInstructions()
     {
@@ -599,7 +599,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Sets lineItemFulfillmentInstructions
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LineItemFulfillmentInstructions $lineItemFulfillmentInstructions lineItemFulfillmentInstructions
+     * @param \Johncarlson21\EbaySdk\Model\LineItemFulfillmentInstructions $lineItemFulfillmentInstructions lineItemFulfillmentInstructions
      *
      * @return $this
      */
@@ -661,7 +661,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Gets linkedOrderLineItems
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LinkedOrderLineItem[]
+     * @return \Johncarlson21\EbaySdk\Model\LinkedOrderLineItem[]
      */
     public function getLinkedOrderLineItems()
     {
@@ -671,7 +671,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Sets linkedOrderLineItems
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LinkedOrderLineItem[] $linkedOrderLineItems An array of one or more line items related to the corresponding order, but not a part of that order. Details include the order ID, line item ID, and title of the linked line item, the seller of that item, item specifics, estimated delivery times, and shipment tracking (if available).
+     * @param \Johncarlson21\EbaySdk\Model\LinkedOrderLineItem[] $linkedOrderLineItems An array of one or more line items related to the corresponding order, but not a part of that order. Details include the order ID, line item ID, and title of the linked line item, the seller of that item, item specifics, estimated delivery times, and shipment tracking (if available).
      *
      * @return $this
      */
@@ -709,7 +709,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Gets properties
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LineItemProperties
+     * @return \Johncarlson21\EbaySdk\Model\LineItemProperties
      */
     public function getProperties()
     {
@@ -719,7 +719,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Sets properties
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LineItemProperties $properties properties
+     * @param \Johncarlson21\EbaySdk\Model\LineItemProperties $properties properties
      *
      * @return $this
      */
@@ -781,7 +781,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Gets refunds
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LineItemRefund[]
+     * @return \Johncarlson21\EbaySdk\Model\LineItemRefund[]
      */
     public function getRefunds()
     {
@@ -791,7 +791,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Sets refunds
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LineItemRefund[] $refunds This array is always returned, but is returned as an empty array unless the seller has submitted a partial or full refund to the buyer for the order. If a refund has occurred, the refund amount and refund date will be shown for each refund.
+     * @param \Johncarlson21\EbaySdk\Model\LineItemRefund[] $refunds This array is always returned, but is returned as an empty array unless the seller has submitted a partial or full refund to the buyer for the order. If a refund has occurred, the refund amount and refund date will be shown for each refund.
      *
      * @return $this
      */
@@ -853,7 +853,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Gets taxes
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Tax[]
+     * @return \Johncarlson21\EbaySdk\Model\Tax[]
      */
     public function getTaxes()
     {
@@ -863,7 +863,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Sets taxes
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Tax[] $taxes Contains a list of taxes applied to the line item, if any. This array is always returned, but will be returned as empty if no taxes are applicable to the line item.
+     * @param \Johncarlson21\EbaySdk\Model\Tax[] $taxes Contains a list of taxes applied to the line item, if any. This array is always returned, but will be returned as empty if no taxes are applicable to the line item.
      *
      * @return $this
      */
@@ -901,7 +901,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Gets total
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getTotal()
     {
@@ -911,7 +911,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Sets total
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $total total
+     * @param \Johncarlson21\EbaySdk\Model\Amount $total total
      *
      * @return $this
      */
@@ -925,7 +925,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Gets variationAspects
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\NameValuePair[]
+     * @return \Johncarlson21\EbaySdk\Model\NameValuePair[]
      */
     public function getVariationAspects()
     {
@@ -935,7 +935,7 @@ class LineItem implements ModelInterface, ArrayAccess
     /**
      * Sets variationAspects
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\NameValuePair[] $variationAspects An array of aspect name-value pairs that identifies the specific variation of a multi-variation listing. This array can contain multiple name-value pairs, such as <code>color:blue</code> and <code>size:large</code>, and will only be returned for orders created from a multiple-variation listing.
+     * @param \Johncarlson21\EbaySdk\Model\NameValuePair[] $variationAspects An array of aspect name-value pairs that identifies the specific variation of a multi-variation listing. This array can contain multiple name-value pairs, such as <code>color:blue</code> and <code>size:large</code>, and will only be returned for orders created from a multiple-variation listing.
      *
      * @return $this
      */

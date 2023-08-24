@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -64,7 +64,7 @@ class ReturnAddress implements ModelInterface, ArrayAccess
         'county' => 'string',
         'fullName' => 'string',
         'postalCode' => 'string',
-        'primaryPhone' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Phone',
+        'primaryPhone' => '\Johncarlson21\EbaySdk\Model\Phone',
         'stateOrProvince' => 'string'
     ];
 
@@ -421,7 +421,7 @@ class ReturnAddress implements ModelInterface, ArrayAccess
     /**
      * Gets primaryPhone
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Phone
+     * @return \Johncarlson21\EbaySdk\Model\Phone
      */
     public function getPrimaryPhone()
     {
@@ -431,7 +431,7 @@ class ReturnAddress implements ModelInterface, ArrayAccess
     /**
      * Sets primaryPhone
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Phone $primaryPhone primaryPhone
+     * @param \Johncarlson21\EbaySdk\Model\Phone $primaryPhone primaryPhone
      *
      * @return $this
      */

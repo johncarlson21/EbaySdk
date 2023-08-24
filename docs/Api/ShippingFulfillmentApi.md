@@ -23,13 +23,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 // Configure OAuth2 access token for authorization: api_auth
 $config = Johncarlson21\EbaySdk\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\ShippingFulfillmentApi(
+$apiInstance = new Johncarlson21\EbaySdk\Api\ShippingFulfillmentApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillmentDetails(); // \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillmentDetails | fulfillment payload
+$body = new \Johncarlson21\EbaySdk\Model\ShippingFulfillmentDetails(); // \Johncarlson21\EbaySdk\Model\ShippingFulfillmentDetails | fulfillment payload
 $contentType = "contentType_example"; // string | This header indicates the format of the request body provided by the client. Its value should be set to <b>application/json</b>. <br><br> For more information, refer to <a href=\"/api-docs/static/rest-request-components.html#HTTP\" target=\"_blank \">HTTP request headers</a>.
 $orderId = "orderId_example"; // string | The unique identifier of the order. Order ID values are shown in My eBay/Seller Hub, and are also returned by the <b>getOrders</b> method in the <b>orders.orderId</b> field.
 
@@ -46,7 +46,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillmentDetails**](../Model/ShippingFulfillmentDetails.md)| fulfillment payload |
+ **body** | [**\Johncarlson21\EbaySdk\Model\ShippingFulfillmentDetails**](../Model/ShippingFulfillmentDetails.md)| fulfillment payload |
  **contentType** | **string**| This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. |
  **orderId** | **string**| The unique identifier of the order. Order ID values are shown in My eBay/Seller Hub, and are also returned by the &lt;b&gt;getOrders&lt;/b&gt; method in the &lt;b&gt;orders.orderId&lt;/b&gt; field. |
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getShippingFulfillment**
-> \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillment getShippingFulfillment($fulfillmentId, $orderId)
+> \Johncarlson21\EbaySdk\Model\ShippingFulfillment getShippingFulfillment($fulfillmentId, $orderId)
 
 
 
@@ -80,7 +80,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 // Configure OAuth2 access token for authorization: api_auth
 $config = Johncarlson21\EbaySdk\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\ShippingFulfillmentApi(
+$apiInstance = new Johncarlson21\EbaySdk\Api\ShippingFulfillmentApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -107,7 +107,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillment**](../Model/ShippingFulfillment.md)
+[**\Johncarlson21\EbaySdk\Model\ShippingFulfillment**](../Model/ShippingFulfillment.md)
 
 ### Authorization
 
@@ -121,7 +121,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getShippingFulfillments**
-> \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillmentPagedCollection getShippingFulfillments($orderId)
+> \Johncarlson21\EbaySdk\Model\ShippingFulfillmentPagedCollection getShippingFulfillments($orderId)
 
 
 
@@ -135,7 +135,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 // Configure OAuth2 access token for authorization: api_auth
 $config = Johncarlson21\EbaySdk\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api\ShippingFulfillmentApi(
+$apiInstance = new Johncarlson21\EbaySdk\Api\ShippingFulfillmentApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -160,7 +160,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillmentPagedCollection**](../Model/ShippingFulfillmentPagedCollection.md)
+[**\Johncarlson21\EbaySdk\Model\ShippingFulfillmentPagedCollection**](../Model/ShippingFulfillmentPagedCollection.md)
 
 ### Authorization
 

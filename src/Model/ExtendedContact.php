@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -58,10 +58,10 @@ class ExtendedContact implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'companyName' => 'string',
-        'contactAddress' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Address',
+        'contactAddress' => '\Johncarlson21\EbaySdk\Model\Address',
         'email' => 'string',
         'fullName' => 'string',
-        'primaryPhone' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PhoneNumber'
+        'primaryPhone' => '\Johncarlson21\EbaySdk\Model\PhoneNumber'
     ];
 
     /**
@@ -253,7 +253,7 @@ class ExtendedContact implements ModelInterface, ArrayAccess
     /**
      * Gets contactAddress
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Address
+     * @return \Johncarlson21\EbaySdk\Model\Address
      */
     public function getContactAddress()
     {
@@ -263,7 +263,7 @@ class ExtendedContact implements ModelInterface, ArrayAccess
     /**
      * Sets contactAddress
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Address $contactAddress contactAddress
+     * @param \Johncarlson21\EbaySdk\Model\Address $contactAddress contactAddress
      *
      * @return $this
      */
@@ -325,7 +325,7 @@ class ExtendedContact implements ModelInterface, ArrayAccess
     /**
      * Gets primaryPhone
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PhoneNumber
+     * @return \Johncarlson21\EbaySdk\Model\PhoneNumber
      */
     public function getPrimaryPhone()
     {
@@ -335,7 +335,7 @@ class ExtendedContact implements ModelInterface, ArrayAccess
     /**
      * Sets primaryPhone
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PhoneNumber $primaryPhone primaryPhone
+     * @param \Johncarlson21\EbaySdk\Model\PhoneNumber $primaryPhone primaryPhone
      *
      * @return $this
      */

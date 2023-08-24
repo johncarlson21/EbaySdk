@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -58,11 +58,11 @@ class PaymentHold implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'expectedReleaseDate' => 'string',
-        'holdAmount' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
+        'holdAmount' => '\Johncarlson21\EbaySdk\Model\Amount',
         'holdReason' => 'string',
         'holdState' => 'string',
         'releaseDate' => 'string',
-        'sellerActionsToRelease' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SellerActionsToRelease[]'
+        'sellerActionsToRelease' => '\Johncarlson21\EbaySdk\Model\SellerActionsToRelease[]'
     ];
 
     /**
@@ -259,7 +259,7 @@ class PaymentHold implements ModelInterface, ArrayAccess
     /**
      * Gets holdAmount
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getHoldAmount()
     {
@@ -269,7 +269,7 @@ class PaymentHold implements ModelInterface, ArrayAccess
     /**
      * Sets holdAmount
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $holdAmount holdAmount
+     * @param \Johncarlson21\EbaySdk\Model\Amount $holdAmount holdAmount
      *
      * @return $this
      */
@@ -355,7 +355,7 @@ class PaymentHold implements ModelInterface, ArrayAccess
     /**
      * Gets sellerActionsToRelease
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SellerActionsToRelease[]
+     * @return \Johncarlson21\EbaySdk\Model\SellerActionsToRelease[]
      */
     public function getSellerActionsToRelease()
     {
@@ -365,7 +365,7 @@ class PaymentHold implements ModelInterface, ArrayAccess
     /**
      * Sets sellerActionsToRelease
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SellerActionsToRelease[] $sellerActionsToRelease A list of one or more possible actions that the seller can take to expedite the release of the payment hold.
+     * @param \Johncarlson21\EbaySdk\Model\SellerActionsToRelease[] $sellerActionsToRelease A list of one or more possible actions that the seller can take to expedite the release of the payment hold.
      *
      * @return $this
      */

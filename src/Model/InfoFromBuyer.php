@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -58,7 +58,7 @@ class InfoFromBuyer implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'note' => 'string',
-        'returnShipmentTracking' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\TrackingInfo[]'
+        'returnShipmentTracking' => '\Johncarlson21\EbaySdk\Model\TrackingInfo[]'
     ];
 
     /**
@@ -235,7 +235,7 @@ class InfoFromBuyer implements ModelInterface, ArrayAccess
     /**
      * Gets returnShipmentTracking
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\TrackingInfo[]
+     * @return \Johncarlson21\EbaySdk\Model\TrackingInfo[]
      */
     public function getReturnShipmentTracking()
     {
@@ -245,7 +245,7 @@ class InfoFromBuyer implements ModelInterface, ArrayAccess
     /**
      * Sets returnShipmentTracking
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\TrackingInfo[] $returnShipmentTracking This array shows shipment tracking information for one or more shipping packages being returned to the buyer after a payment dispute.
+     * @param \Johncarlson21\EbaySdk\Model\TrackingInfo[] $returnShipmentTracking This array shows shipment tracking information for one or more shipping packages being returned to the buyer after a payment dispute.
      *
      * @return $this
      */

@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,9 +57,9 @@ class Payment implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'amount' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
+        'amount' => '\Johncarlson21\EbaySdk\Model\Amount',
         'paymentDate' => 'string',
-        'paymentHolds' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentHold[]',
+        'paymentHolds' => '\Johncarlson21\EbaySdk\Model\PaymentHold[]',
         'paymentMethod' => 'string',
         'paymentReferenceId' => 'string',
         'paymentStatus' => 'string'
@@ -235,7 +235,7 @@ class Payment implements ModelInterface, ArrayAccess
     /**
      * Gets amount
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getAmount()
     {
@@ -245,7 +245,7 @@ class Payment implements ModelInterface, ArrayAccess
     /**
      * Sets amount
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $amount amount
+     * @param \Johncarlson21\EbaySdk\Model\Amount $amount amount
      *
      * @return $this
      */
@@ -283,7 +283,7 @@ class Payment implements ModelInterface, ArrayAccess
     /**
      * Gets paymentHolds
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentHold[]
+     * @return \Johncarlson21\EbaySdk\Model\PaymentHold[]
      */
     public function getPaymentHolds()
     {
@@ -293,7 +293,7 @@ class Payment implements ModelInterface, ArrayAccess
     /**
      * Sets paymentHolds
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentHold[] $paymentHolds This container is only returned if eBay is temporarily holding the seller's funds for the order. If a payment hold has been placed on the order, this container includes the reason for the payment hold, the expected release date of the funds into the seller's account, the current state of the hold, and as soon as the payment hold has been released, the actual release date.
+     * @param \Johncarlson21\EbaySdk\Model\PaymentHold[] $paymentHolds This container is only returned if eBay is temporarily holding the seller's funds for the order. If a payment hold has been placed on the order, this container includes the reason for the payment hold, the expected release date of the funds into the seller's account, the current state of the hold, and as soon as the payment hold has been released, the actual release date.
      *
      * @return $this
      */

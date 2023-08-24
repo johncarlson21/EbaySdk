@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,26 +57,26 @@ class Order implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'buyer' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Buyer',
+        'buyer' => '\Johncarlson21\EbaySdk\Model\Buyer',
         'buyerCheckoutNotes' => 'string',
-        'cancelStatus' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\CancelStatus',
+        'cancelStatus' => '\Johncarlson21\EbaySdk\Model\CancelStatus',
         'creationDate' => 'string',
         'ebayCollectAndRemitTax' => 'bool',
         'fulfillmentHrefs' => 'string[]',
-        'fulfillmentStartInstructions' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\FulfillmentStartInstruction[]',
+        'fulfillmentStartInstructions' => '\Johncarlson21\EbaySdk\Model\FulfillmentStartInstruction[]',
         'lastModifiedDate' => 'string',
         'legacyOrderId' => 'string',
-        'lineItems' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LineItem[]',
+        'lineItems' => '\Johncarlson21\EbaySdk\Model\LineItem[]',
         'orderFulfillmentStatus' => 'string',
         'orderId' => 'string',
         'orderPaymentStatus' => 'string',
-        'paymentSummary' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentSummary',
-        'pricingSummary' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PricingSummary',
-        'program' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Program',
+        'paymentSummary' => '\Johncarlson21\EbaySdk\Model\PaymentSummary',
+        'pricingSummary' => '\Johncarlson21\EbaySdk\Model\PricingSummary',
+        'program' => '\Johncarlson21\EbaySdk\Model\Program',
         'salesRecordReference' => 'string',
         'sellerId' => 'string',
-        'totalFeeBasisAmount' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount',
-        'totalMarketplaceFee' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount'
+        'totalFeeBasisAmount' => '\Johncarlson21\EbaySdk\Model\Amount',
+        'totalMarketplaceFee' => '\Johncarlson21\EbaySdk\Model\Amount'
     ];
 
     /**
@@ -319,7 +319,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Gets buyer
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Buyer
+     * @return \Johncarlson21\EbaySdk\Model\Buyer
      */
     public function getBuyer()
     {
@@ -329,7 +329,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Sets buyer
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Buyer $buyer buyer
+     * @param \Johncarlson21\EbaySdk\Model\Buyer $buyer buyer
      *
      * @return $this
      */
@@ -367,7 +367,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Gets cancelStatus
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\CancelStatus
+     * @return \Johncarlson21\EbaySdk\Model\CancelStatus
      */
     public function getCancelStatus()
     {
@@ -377,7 +377,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Sets cancelStatus
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\CancelStatus $cancelStatus cancelStatus
+     * @param \Johncarlson21\EbaySdk\Model\CancelStatus $cancelStatus cancelStatus
      *
      * @return $this
      */
@@ -463,7 +463,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Gets fulfillmentStartInstructions
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\FulfillmentStartInstruction[]
+     * @return \Johncarlson21\EbaySdk\Model\FulfillmentStartInstruction[]
      */
     public function getFulfillmentStartInstructions()
     {
@@ -473,7 +473,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Sets fulfillmentStartInstructions
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\FulfillmentStartInstruction[] $fulfillmentStartInstructions This container consists of a set of specifications for fulfilling the order, including the type of fulfillment, shipping carrier and service, shipping address, and estimated delivery window. These instructions are derived from the buyer's and seller's eBay account preferences, the listing parameters, and the buyer's checkout selections. The seller can use them as a starting point for packaging, addressing, and shipping the order.<br><br><span class=\"tablenote\"><strong>Note:</strong> Although this container is presented as an array, it currently returns only one set of fulfillment specifications. Additional array members will be supported in future functionality.</span>
+     * @param \Johncarlson21\EbaySdk\Model\FulfillmentStartInstruction[] $fulfillmentStartInstructions This container consists of a set of specifications for fulfilling the order, including the type of fulfillment, shipping carrier and service, shipping address, and estimated delivery window. These instructions are derived from the buyer's and seller's eBay account preferences, the listing parameters, and the buyer's checkout selections. The seller can use them as a starting point for packaging, addressing, and shipping the order.<br><br><span class=\"tablenote\"><strong>Note:</strong> Although this container is presented as an array, it currently returns only one set of fulfillment specifications. Additional array members will be supported in future functionality.</span>
      *
      * @return $this
      */
@@ -535,7 +535,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Gets lineItems
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LineItem[]
+     * @return \Johncarlson21\EbaySdk\Model\LineItem[]
      */
     public function getLineItems()
     {
@@ -545,7 +545,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Sets lineItems
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\LineItem[] $lineItems This array contains the details for all line items that comprise the order.
+     * @param \Johncarlson21\EbaySdk\Model\LineItem[] $lineItems This array contains the details for all line items that comprise the order.
      *
      * @return $this
      */
@@ -631,7 +631,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Gets paymentSummary
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentSummary
+     * @return \Johncarlson21\EbaySdk\Model\PaymentSummary
      */
     public function getPaymentSummary()
     {
@@ -641,7 +641,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Sets paymentSummary
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentSummary $paymentSummary paymentSummary
+     * @param \Johncarlson21\EbaySdk\Model\PaymentSummary $paymentSummary paymentSummary
      *
      * @return $this
      */
@@ -655,7 +655,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Gets pricingSummary
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PricingSummary
+     * @return \Johncarlson21\EbaySdk\Model\PricingSummary
      */
     public function getPricingSummary()
     {
@@ -665,7 +665,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Sets pricingSummary
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PricingSummary $pricingSummary pricingSummary
+     * @param \Johncarlson21\EbaySdk\Model\PricingSummary $pricingSummary pricingSummary
      *
      * @return $this
      */
@@ -679,7 +679,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Gets program
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Program
+     * @return \Johncarlson21\EbaySdk\Model\Program
      */
     public function getProgram()
     {
@@ -689,7 +689,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Sets program
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Program $program program
+     * @param \Johncarlson21\EbaySdk\Model\Program $program program
      *
      * @return $this
      */
@@ -751,7 +751,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Gets totalFeeBasisAmount
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getTotalFeeBasisAmount()
     {
@@ -761,7 +761,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Sets totalFeeBasisAmount
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $totalFeeBasisAmount totalFeeBasisAmount
+     * @param \Johncarlson21\EbaySdk\Model\Amount $totalFeeBasisAmount totalFeeBasisAmount
      *
      * @return $this
      */
@@ -775,7 +775,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Gets totalMarketplaceFee
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getTotalMarketplaceFee()
     {
@@ -785,7 +785,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Sets totalMarketplaceFee
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $totalMarketplaceFee totalMarketplaceFee
+     * @param \Johncarlson21\EbaySdk\Model\Amount $totalMarketplaceFee totalMarketplaceFee
      *
      * @return $this
      */

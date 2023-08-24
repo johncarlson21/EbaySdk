@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,9 +57,9 @@ class PaymentSummary implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'payments' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Payment[]',
-        'refunds' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderRefund[]',
-        'totalDueSeller' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount'
+        'payments' => '\Johncarlson21\EbaySdk\Model\Payment[]',
+        'refunds' => '\Johncarlson21\EbaySdk\Model\OrderRefund[]',
+        'totalDueSeller' => '\Johncarlson21\EbaySdk\Model\Amount'
     ];
 
     /**
@@ -217,7 +217,7 @@ class PaymentSummary implements ModelInterface, ArrayAccess
     /**
      * Gets payments
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Payment[]
+     * @return \Johncarlson21\EbaySdk\Model\Payment[]
      */
     public function getPayments()
     {
@@ -227,7 +227,7 @@ class PaymentSummary implements ModelInterface, ArrayAccess
     /**
      * Sets payments
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Payment[] $payments This array consists of payment information for the order, including payment status, payment method, payment amount, and payment date. This array is always returned, although some of the fields under this container will not be returned until payment has been made.
+     * @param \Johncarlson21\EbaySdk\Model\Payment[] $payments This array consists of payment information for the order, including payment status, payment method, payment amount, and payment date. This array is always returned, although some of the fields under this container will not be returned until payment has been made.
      *
      * @return $this
      */
@@ -241,7 +241,7 @@ class PaymentSummary implements ModelInterface, ArrayAccess
     /**
      * Gets refunds
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderRefund[]
+     * @return \Johncarlson21\EbaySdk\Model\OrderRefund[]
      */
     public function getRefunds()
     {
@@ -251,7 +251,7 @@ class PaymentSummary implements ModelInterface, ArrayAccess
     /**
      * Sets refunds
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderRefund[] $refunds This array is always returned, but is returned as an empty array unless the seller has submitted a partial or full refund to the buyer for the order. If a refund has occurred, the refund amount and refund date will be shown for each refund.
+     * @param \Johncarlson21\EbaySdk\Model\OrderRefund[] $refunds This array is always returned, but is returned as an empty array unless the seller has submitted a partial or full refund to the buyer for the order. If a refund has occurred, the refund amount and refund date will be shown for each refund.
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class PaymentSummary implements ModelInterface, ArrayAccess
     /**
      * Gets totalDueSeller
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount
+     * @return \Johncarlson21\EbaySdk\Model\Amount
      */
     public function getTotalDueSeller()
     {
@@ -275,7 +275,7 @@ class PaymentSummary implements ModelInterface, ArrayAccess
     /**
      * Sets totalDueSeller
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Amount $totalDueSeller totalDueSeller
+     * @param \Johncarlson21\EbaySdk\Model\Amount $totalDueSeller totalDueSeller
      *
      * @return $this
      */

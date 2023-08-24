@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,9 +57,9 @@ class Buyer implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'buyerRegistrationAddress' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ExtendedContact',
-        'taxAddress' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\TaxAddress',
-        'taxIdentifier' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\TaxIdentifier',
+        'buyerRegistrationAddress' => '\Johncarlson21\EbaySdk\Model\ExtendedContact',
+        'taxAddress' => '\Johncarlson21\EbaySdk\Model\TaxAddress',
+        'taxIdentifier' => '\Johncarlson21\EbaySdk\Model\TaxIdentifier',
         'username' => 'string'
     ];
 
@@ -223,7 +223,7 @@ class Buyer implements ModelInterface, ArrayAccess
     /**
      * Gets buyerRegistrationAddress
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ExtendedContact
+     * @return \Johncarlson21\EbaySdk\Model\ExtendedContact
      */
     public function getBuyerRegistrationAddress()
     {
@@ -233,7 +233,7 @@ class Buyer implements ModelInterface, ArrayAccess
     /**
      * Sets buyerRegistrationAddress
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ExtendedContact $buyerRegistrationAddress buyerRegistrationAddress
+     * @param \Johncarlson21\EbaySdk\Model\ExtendedContact $buyerRegistrationAddress buyerRegistrationAddress
      *
      * @return $this
      */
@@ -247,7 +247,7 @@ class Buyer implements ModelInterface, ArrayAccess
     /**
      * Gets taxAddress
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\TaxAddress
+     * @return \Johncarlson21\EbaySdk\Model\TaxAddress
      */
     public function getTaxAddress()
     {
@@ -257,7 +257,7 @@ class Buyer implements ModelInterface, ArrayAccess
     /**
      * Sets taxAddress
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\TaxAddress $taxAddress taxAddress
+     * @param \Johncarlson21\EbaySdk\Model\TaxAddress $taxAddress taxAddress
      *
      * @return $this
      */
@@ -271,7 +271,7 @@ class Buyer implements ModelInterface, ArrayAccess
     /**
      * Gets taxIdentifier
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\TaxIdentifier
+     * @return \Johncarlson21\EbaySdk\Model\TaxIdentifier
      */
     public function getTaxIdentifier()
     {
@@ -281,7 +281,7 @@ class Buyer implements ModelInterface, ArrayAccess
     /**
      * Sets taxIdentifier
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\TaxIdentifier $taxIdentifier taxIdentifier
+     * @param \Johncarlson21\EbaySdk\Model\TaxIdentifier $taxIdentifier taxIdentifier
      *
      * @return $this
      */

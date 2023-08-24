@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -59,7 +59,7 @@ class ShippingStep implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'shippingCarrierCode' => 'string',
         'shippingServiceCode' => 'string',
-        'shipTo' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ExtendedContact',
+        'shipTo' => '\Johncarlson21\EbaySdk\Model\ExtendedContact',
         'shipToReferenceId' => 'string'
     ];
 
@@ -271,7 +271,7 @@ class ShippingStep implements ModelInterface, ArrayAccess
     /**
      * Gets shipTo
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ExtendedContact
+     * @return \Johncarlson21\EbaySdk\Model\ExtendedContact
      */
     public function getShipTo()
     {
@@ -281,7 +281,7 @@ class ShippingStep implements ModelInterface, ArrayAccess
     /**
      * Sets shipTo
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ExtendedContact $shipTo shipTo
+     * @param \Johncarlson21\EbaySdk\Model\ExtendedContact $shipTo shipTo
      *
      * @return $this
      */

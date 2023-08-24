@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api;
+namespace Johncarlson21\EbaySdk\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -89,7 +89,7 @@ class ShippingFulfillmentApi
     /**
      * Operation createShippingFulfillment
      *
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillmentDetails $body fulfillment payload (required)
+     * @param  \Johncarlson21\EbaySdk\Model\ShippingFulfillmentDetails $body fulfillment payload (required)
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $orderId The unique identifier of the order. Order ID values are shown in My eBay/Seller Hub, and are also returned by the &lt;b&gt;getOrders&lt;/b&gt; method in the &lt;b&gt;orders.orderId&lt;/b&gt; field. (required)
      *
@@ -106,7 +106,7 @@ class ShippingFulfillmentApi
     /**
      * Operation createShippingFulfillmentWithHttpInfo
      *
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillmentDetails $body fulfillment payload (required)
+     * @param  \Johncarlson21\EbaySdk\Model\ShippingFulfillmentDetails $body fulfillment payload (required)
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $orderId The unique identifier of the order. Order ID values are shown in My eBay/Seller Hub, and are also returned by the &lt;b&gt;getOrders&lt;/b&gt; method in the &lt;b&gt;orders.orderId&lt;/b&gt; field. (required)
      *
@@ -183,7 +183,7 @@ class ShippingFulfillmentApi
      *
      * 
      *
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillmentDetails $body fulfillment payload (required)
+     * @param  \Johncarlson21\EbaySdk\Model\ShippingFulfillmentDetails $body fulfillment payload (required)
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $orderId The unique identifier of the order. Order ID values are shown in My eBay/Seller Hub, and are also returned by the &lt;b&gt;getOrders&lt;/b&gt; method in the &lt;b&gt;orders.orderId&lt;/b&gt; field. (required)
      *
@@ -205,7 +205,7 @@ class ShippingFulfillmentApi
      *
      * 
      *
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillmentDetails $body fulfillment payload (required)
+     * @param  \Johncarlson21\EbaySdk\Model\ShippingFulfillmentDetails $body fulfillment payload (required)
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $orderId The unique identifier of the order. Order ID values are shown in My eBay/Seller Hub, and are also returned by the &lt;b&gt;getOrders&lt;/b&gt; method in the &lt;b&gt;orders.orderId&lt;/b&gt; field. (required)
      *
@@ -257,7 +257,7 @@ class ShippingFulfillmentApi
     /**
      * Create request for operation 'createShippingFulfillment'
      *
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillmentDetails $body fulfillment payload (required)
+     * @param  \Johncarlson21\EbaySdk\Model\ShippingFulfillmentDetails $body fulfillment payload (required)
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $orderId The unique identifier of the order. Order ID values are shown in My eBay/Seller Hub, and are also returned by the &lt;b&gt;getOrders&lt;/b&gt; method in the &lt;b&gt;orders.orderId&lt;/b&gt; field. (required)
      *
@@ -385,7 +385,7 @@ class ShippingFulfillmentApi
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillment
+     * @return \Johncarlson21\EbaySdk\Model\ShippingFulfillment
      */
     public function getShippingFulfillment($fulfillmentId, $orderId)
     {
@@ -401,11 +401,11 @@ class ShippingFulfillmentApi
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillment, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Johncarlson21\EbaySdk\Model\ShippingFulfillment, HTTP status code, HTTP response headers (array of strings)
      */
     public function getShippingFulfillmentWithHttpInfo($fulfillmentId, $orderId)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillment';
+        $returnType = '\Johncarlson21\EbaySdk\Model\ShippingFulfillment';
         $request = $this->getShippingFulfillmentRequest($fulfillmentId, $orderId);
 
         try {
@@ -457,7 +457,7 @@ class ShippingFulfillmentApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillment',
+                        '\Johncarlson21\EbaySdk\Model\ShippingFulfillment',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -501,7 +501,7 @@ class ShippingFulfillmentApi
      */
     public function getShippingFulfillmentAsyncWithHttpInfo($fulfillmentId, $orderId)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillment';
+        $returnType = '\Johncarlson21\EbaySdk\Model\ShippingFulfillment';
         $request = $this->getShippingFulfillmentRequest($fulfillmentId, $orderId);
 
         return $this->client
@@ -665,7 +665,7 @@ class ShippingFulfillmentApi
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillmentPagedCollection
+     * @return \Johncarlson21\EbaySdk\Model\ShippingFulfillmentPagedCollection
      */
     public function getShippingFulfillments($orderId)
     {
@@ -680,11 +680,11 @@ class ShippingFulfillmentApi
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillmentPagedCollection, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Johncarlson21\EbaySdk\Model\ShippingFulfillmentPagedCollection, HTTP status code, HTTP response headers (array of strings)
      */
     public function getShippingFulfillmentsWithHttpInfo($orderId)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillmentPagedCollection';
+        $returnType = '\Johncarlson21\EbaySdk\Model\ShippingFulfillmentPagedCollection';
         $request = $this->getShippingFulfillmentsRequest($orderId);
 
         try {
@@ -736,7 +736,7 @@ class ShippingFulfillmentApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillmentPagedCollection',
+                        '\Johncarlson21\EbaySdk\Model\ShippingFulfillmentPagedCollection',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -778,7 +778,7 @@ class ShippingFulfillmentApi
      */
     public function getShippingFulfillmentsAsyncWithHttpInfo($orderId)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ShippingFulfillmentPagedCollection';
+        $returnType = '\Johncarlson21\EbaySdk\Model\ShippingFulfillmentPagedCollection';
         $request = $this->getShippingFulfillmentsRequest($orderId);
 
         return $this->client

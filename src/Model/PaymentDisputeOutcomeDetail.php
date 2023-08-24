@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,12 +57,12 @@ class PaymentDisputeOutcomeDetail implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'fees' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount',
-        'protectedAmount' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount',
+        'fees' => '\Johncarlson21\EbaySdk\Model\SimpleAmount',
+        'protectedAmount' => '\Johncarlson21\EbaySdk\Model\SimpleAmount',
         'protectionStatus' => 'string',
         'reasonForClosure' => 'string',
-        'recoupAmount' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount',
-        'totalFeeCredit' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount'
+        'recoupAmount' => '\Johncarlson21\EbaySdk\Model\SimpleAmount',
+        'totalFeeCredit' => '\Johncarlson21\EbaySdk\Model\SimpleAmount'
     ];
 
     /**
@@ -235,7 +235,7 @@ class PaymentDisputeOutcomeDetail implements ModelInterface, ArrayAccess
     /**
      * Gets fees
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount
+     * @return \Johncarlson21\EbaySdk\Model\SimpleAmount
      */
     public function getFees()
     {
@@ -245,7 +245,7 @@ class PaymentDisputeOutcomeDetail implements ModelInterface, ArrayAccess
     /**
      * Sets fees
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount $fees fees
+     * @param \Johncarlson21\EbaySdk\Model\SimpleAmount $fees fees
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class PaymentDisputeOutcomeDetail implements ModelInterface, ArrayAccess
     /**
      * Gets protectedAmount
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount
+     * @return \Johncarlson21\EbaySdk\Model\SimpleAmount
      */
     public function getProtectedAmount()
     {
@@ -269,7 +269,7 @@ class PaymentDisputeOutcomeDetail implements ModelInterface, ArrayAccess
     /**
      * Sets protectedAmount
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount $protectedAmount protectedAmount
+     * @param \Johncarlson21\EbaySdk\Model\SimpleAmount $protectedAmount protectedAmount
      *
      * @return $this
      */
@@ -331,7 +331,7 @@ class PaymentDisputeOutcomeDetail implements ModelInterface, ArrayAccess
     /**
      * Gets recoupAmount
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount
+     * @return \Johncarlson21\EbaySdk\Model\SimpleAmount
      */
     public function getRecoupAmount()
     {
@@ -341,7 +341,7 @@ class PaymentDisputeOutcomeDetail implements ModelInterface, ArrayAccess
     /**
      * Sets recoupAmount
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount $recoupAmount recoupAmount
+     * @param \Johncarlson21\EbaySdk\Model\SimpleAmount $recoupAmount recoupAmount
      *
      * @return $this
      */
@@ -355,7 +355,7 @@ class PaymentDisputeOutcomeDetail implements ModelInterface, ArrayAccess
     /**
      * Gets totalFeeCredit
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount
+     * @return \Johncarlson21\EbaySdk\Model\SimpleAmount
      */
     public function getTotalFeeCredit()
     {
@@ -365,7 +365,7 @@ class PaymentDisputeOutcomeDetail implements ModelInterface, ArrayAccess
     /**
      * Sets totalFeeCredit
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount $totalFeeCredit totalFeeCredit
+     * @param \Johncarlson21\EbaySdk\Model\SimpleAmount $totalFeeCredit totalFeeCredit
      *
      * @return $this
      */

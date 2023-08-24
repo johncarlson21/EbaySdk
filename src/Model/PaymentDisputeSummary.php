@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -57,7 +57,7 @@ class PaymentDisputeSummary implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'amount' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount',
+        'amount' => '\Johncarlson21\EbaySdk\Model\SimpleAmount',
         'buyerUsername' => 'string',
         'closedDate' => 'string',
         'openDate' => 'string',
@@ -253,7 +253,7 @@ class PaymentDisputeSummary implements ModelInterface, ArrayAccess
     /**
      * Gets amount
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount
+     * @return \Johncarlson21\EbaySdk\Model\SimpleAmount
      */
     public function getAmount()
     {
@@ -263,7 +263,7 @@ class PaymentDisputeSummary implements ModelInterface, ArrayAccess
     /**
      * Sets amount
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\SimpleAmount $amount amount
+     * @param \Johncarlson21\EbaySdk\Model\SimpleAmount $amount amount
      *
      * @return $this
      */

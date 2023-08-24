@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -61,10 +61,10 @@ class OrderSearchPagedCollection implements ModelInterface, ArrayAccess
         'limit' => 'int',
         'next' => 'string',
         'offset' => 'int',
-        'orders' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Order[]',
+        'orders' => '\Johncarlson21\EbaySdk\Model\Order[]',
         'prev' => 'string',
         'total' => 'int',
-        'warnings' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Error[]'
+        'warnings' => '\Johncarlson21\EbaySdk\Model\Error[]'
     ];
 
     /**
@@ -343,7 +343,7 @@ class OrderSearchPagedCollection implements ModelInterface, ArrayAccess
     /**
      * Gets orders
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Order[]
+     * @return \Johncarlson21\EbaySdk\Model\Order[]
      */
     public function getOrders()
     {
@@ -353,7 +353,7 @@ class OrderSearchPagedCollection implements ModelInterface, ArrayAccess
     /**
      * Sets orders
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Order[] $orders This array contains one or more orders that are part of the current result set, that is controlled by the input criteria. The details of each order include information about the buyer, order history, shipping fulfillments, line items, costs, payments, and order fulfillment status. <br><br>By default, orders are returned according to creation date (oldest to newest), but the order will vary according to any filter that is set in request.
+     * @param \Johncarlson21\EbaySdk\Model\Order[] $orders This array contains one or more orders that are part of the current result set, that is controlled by the input criteria. The details of each order include information about the buyer, order history, shipping fulfillments, line items, costs, payments, and order fulfillment status. <br><br>By default, orders are returned according to creation date (oldest to newest), but the order will vary according to any filter that is set in request.
      *
      * @return $this
      */
@@ -415,7 +415,7 @@ class OrderSearchPagedCollection implements ModelInterface, ArrayAccess
     /**
      * Gets warnings
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Error[]
+     * @return \Johncarlson21\EbaySdk\Model\Error[]
      */
     public function getWarnings()
     {
@@ -425,7 +425,7 @@ class OrderSearchPagedCollection implements ModelInterface, ArrayAccess
     /**
      * Sets warnings
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\Error[] $warnings This array is returned if one or more errors or warnings occur with the call request.
+     * @param \Johncarlson21\EbaySdk\Model\Error[] $warnings This array is returned if one or more errors or warnings occur with the call request.
      *
      * @return $this
      */

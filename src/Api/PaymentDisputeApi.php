@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Api;
+namespace Johncarlson21\EbaySdk\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -93,7 +93,7 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to accept. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AcceptPaymentDisputeRequest $body body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\AcceptPaymentDisputeRequest $body body (optional)
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -111,7 +111,7 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to accept. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AcceptPaymentDisputeRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\AcceptPaymentDisputeRequest $body (optional)
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -166,7 +166,7 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to accept. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AcceptPaymentDisputeRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\AcceptPaymentDisputeRequest $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -188,7 +188,7 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to accept. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AcceptPaymentDisputeRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\AcceptPaymentDisputeRequest $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -226,7 +226,7 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to accept. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AcceptPaymentDisputeRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\AcceptPaymentDisputeRequest $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -345,11 +345,11 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to add evidence for a contested payment dispute. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeRequest $body body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeRequest $body body (optional)
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeResponse
+     * @return \Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeResponse
      */
     public function addEvidence($contentType, $paymentDisputeId, $body = null)
     {
@@ -364,15 +364,15 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to add evidence for a contested payment dispute. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeRequest $body (optional)
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function addEvidenceWithHttpInfo($contentType, $paymentDisputeId, $body = null)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeResponse';
+        $returnType = '\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeResponse';
         $request = $this->addEvidenceRequest($contentType, $paymentDisputeId, $body);
 
         try {
@@ -424,7 +424,7 @@ class PaymentDisputeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeResponse',
+                        '\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -441,7 +441,7 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to add evidence for a contested payment dispute. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeRequest $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -463,14 +463,14 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to add evidence for a contested payment dispute. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeRequest $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function addEvidenceAsyncWithHttpInfo($contentType, $paymentDisputeId, $body = null)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeResponse';
+        $returnType = '\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeResponse';
         $request = $this->addEvidenceRequest($contentType, $paymentDisputeId, $body);
 
         return $this->client
@@ -515,7 +515,7 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to add evidence for a contested payment dispute. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\AddEvidencePaymentDisputeRequest $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -634,7 +634,7 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to contest. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ContestPaymentDisputeRequest $body body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\ContestPaymentDisputeRequest $body body (optional)
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -652,7 +652,7 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to contest. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ContestPaymentDisputeRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\ContestPaymentDisputeRequest $body (optional)
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -707,7 +707,7 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to contest. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ContestPaymentDisputeRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\ContestPaymentDisputeRequest $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -729,7 +729,7 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to contest. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ContestPaymentDisputeRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\ContestPaymentDisputeRequest $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -767,7 +767,7 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to contest. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\ContestPaymentDisputeRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\ContestPaymentDisputeRequest $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1184,7 +1184,7 @@ class PaymentDisputeApi
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDisputeActivityHistory
+     * @return \Johncarlson21\EbaySdk\Model\PaymentDisputeActivityHistory
      */
     public function getActivities($paymentDisputeId)
     {
@@ -1201,11 +1201,11 @@ class PaymentDisputeApi
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDisputeActivityHistory, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Johncarlson21\EbaySdk\Model\PaymentDisputeActivityHistory, HTTP status code, HTTP response headers (array of strings)
      */
     public function getActivitiesWithHttpInfo($paymentDisputeId)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDisputeActivityHistory';
+        $returnType = '\Johncarlson21\EbaySdk\Model\PaymentDisputeActivityHistory';
         $request = $this->getActivitiesRequest($paymentDisputeId);
 
         try {
@@ -1257,7 +1257,7 @@ class PaymentDisputeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDisputeActivityHistory',
+                        '\Johncarlson21\EbaySdk\Model\PaymentDisputeActivityHistory',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1299,7 +1299,7 @@ class PaymentDisputeApi
      */
     public function getActivitiesAsyncWithHttpInfo($paymentDisputeId)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDisputeActivityHistory';
+        $returnType = '\Johncarlson21\EbaySdk\Model\PaymentDisputeActivityHistory';
         $request = $this->getActivitiesRequest($paymentDisputeId);
 
         return $this->client
@@ -1450,7 +1450,7 @@ class PaymentDisputeApi
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDispute
+     * @return \Johncarlson21\EbaySdk\Model\PaymentDispute
      */
     public function getPaymentDispute($paymentDisputeId)
     {
@@ -1467,11 +1467,11 @@ class PaymentDisputeApi
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDispute, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Johncarlson21\EbaySdk\Model\PaymentDispute, HTTP status code, HTTP response headers (array of strings)
      */
     public function getPaymentDisputeWithHttpInfo($paymentDisputeId)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDispute';
+        $returnType = '\Johncarlson21\EbaySdk\Model\PaymentDispute';
         $request = $this->getPaymentDisputeRequest($paymentDisputeId);
 
         try {
@@ -1523,7 +1523,7 @@ class PaymentDisputeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDispute',
+                        '\Johncarlson21\EbaySdk\Model\PaymentDispute',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1565,7 +1565,7 @@ class PaymentDisputeApi
      */
     public function getPaymentDisputeAsyncWithHttpInfo($paymentDisputeId)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\PaymentDispute';
+        $returnType = '\Johncarlson21\EbaySdk\Model\PaymentDispute';
         $request = $this->getPaymentDisputeRequest($paymentDisputeId);
 
         return $this->client
@@ -1722,7 +1722,7 @@ class PaymentDisputeApi
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\DisputeSummaryResponse
+     * @return \Johncarlson21\EbaySdk\Model\DisputeSummaryResponse
      */
     public function getPaymentDisputeSummaries($orderId = null, $buyerUsername = null, $openDateFrom = null, $openDateTo = null, $paymentDisputeStatus = null, $limit = null, $offset = null)
     {
@@ -1745,11 +1745,11 @@ class PaymentDisputeApi
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\DisputeSummaryResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Johncarlson21\EbaySdk\Model\DisputeSummaryResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getPaymentDisputeSummariesWithHttpInfo($orderId = null, $buyerUsername = null, $openDateFrom = null, $openDateTo = null, $paymentDisputeStatus = null, $limit = null, $offset = null)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\DisputeSummaryResponse';
+        $returnType = '\Johncarlson21\EbaySdk\Model\DisputeSummaryResponse';
         $request = $this->getPaymentDisputeSummariesRequest($orderId, $buyerUsername, $openDateFrom, $openDateTo, $paymentDisputeStatus, $limit, $offset);
 
         try {
@@ -1801,7 +1801,7 @@ class PaymentDisputeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\DisputeSummaryResponse',
+                        '\Johncarlson21\EbaySdk\Model\DisputeSummaryResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1855,7 +1855,7 @@ class PaymentDisputeApi
      */
     public function getPaymentDisputeSummariesAsyncWithHttpInfo($orderId = null, $buyerUsername = null, $openDateFrom = null, $openDateTo = null, $paymentDisputeStatus = null, $limit = null, $offset = null)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\DisputeSummaryResponse';
+        $returnType = '\Johncarlson21\EbaySdk\Model\DisputeSummaryResponse';
         $request = $this->getPaymentDisputeSummariesRequest($orderId, $buyerUsername, $openDateFrom, $openDateTo, $paymentDisputeStatus, $limit, $offset);
 
         return $this->client
@@ -2024,7 +2024,7 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to update the evidence set for a contested payment dispute. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\UpdateEvidencePaymentDisputeRequest $body body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\UpdateEvidencePaymentDisputeRequest $body body (optional)
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -2042,7 +2042,7 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to update the evidence set for a contested payment dispute. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\UpdateEvidencePaymentDisputeRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\UpdateEvidencePaymentDisputeRequest $body (optional)
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -2097,7 +2097,7 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to update the evidence set for a contested payment dispute. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\UpdateEvidencePaymentDisputeRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\UpdateEvidencePaymentDisputeRequest $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2119,7 +2119,7 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to update the evidence set for a contested payment dispute. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\UpdateEvidencePaymentDisputeRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\UpdateEvidencePaymentDisputeRequest $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2157,7 +2157,7 @@ class PaymentDisputeApi
      *
      * @param  string $contentType This header indicates the format of the request body provided by the client. Its value should be set to &lt;b&gt;application/json&lt;/b&gt;. &lt;br&gt;&lt;br&gt; For more information, refer to &lt;a href&#x3D;\&quot;/api-docs/static/rest-request-components.html#HTTP\&quot; target&#x3D;\&quot;_blank \&quot;&gt;HTTP request headers&lt;/a&gt;. (required)
      * @param  string $paymentDisputeId This is the unique identifier of the payment dispute. This path parameter must be passed into the call URI to identify the payment dispute for which the user plans to update the evidence set for a contested payment dispute. This identifier is automatically created by eBay once the payment dispute comes into the eBay system. The unique identifier for payment disputes is returned in the &lt;strong&gt;paymentDisputeId&lt;/strong&gt; field in the &lt;strong&gt;getPaymentDisputeSummaries&lt;/strong&gt; response.&lt;br&gt;&lt;br&gt;This path parameter is required, and the actual identifier value is passed in right after the &lt;strong&gt;payment_dispute&lt;/strong&gt; resource. See the Resource URI above. (required)
-     * @param  \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\UpdateEvidencePaymentDisputeRequest $body (optional)
+     * @param  \Johncarlson21\EbaySdk\Model\UpdateEvidencePaymentDisputeRequest $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -2279,7 +2279,7 @@ class PaymentDisputeApi
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\FileEvidence
+     * @return \Johncarlson21\EbaySdk\Model\FileEvidence
      */
     public function uploadEvidenceFile($paymentDisputeId, $contentType)
     {
@@ -2297,11 +2297,11 @@ class PaymentDisputeApi
      *
      * @throws \Johncarlson21\EbaySdk\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\FileEvidence, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Johncarlson21\EbaySdk\Model\FileEvidence, HTTP status code, HTTP response headers (array of strings)
      */
     public function uploadEvidenceFileWithHttpInfo($paymentDisputeId, $contentType)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\FileEvidence';
+        $returnType = '\Johncarlson21\EbaySdk\Model\FileEvidence';
         $request = $this->uploadEvidenceFileRequest($paymentDisputeId, $contentType);
 
         try {
@@ -2353,7 +2353,7 @@ class PaymentDisputeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\FileEvidence',
+                        '\Johncarlson21\EbaySdk\Model\FileEvidence',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2397,7 +2397,7 @@ class PaymentDisputeApi
      */
     public function uploadEvidenceFileAsyncWithHttpInfo($paymentDisputeId, $contentType)
     {
-        $returnType = '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\FileEvidence';
+        $returnType = '\Johncarlson21\EbaySdk\Model\FileEvidence';
         $request = $this->uploadEvidenceFileRequest($paymentDisputeId, $contentType);
 
         return $this->client

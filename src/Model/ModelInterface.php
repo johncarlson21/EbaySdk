@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model
+ * @package  Johncarlson21\EbaySdk\Model
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,12 +26,12 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 /**
  * Interface abstracting model access.
  *
- * @package Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model
+ * @package Johncarlson21\EbaySdk\Model
  * @author  Swagger Codegen team
  */
 interface ModelInterface

@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model;
+namespace Johncarlson21\EbaySdk\Model;
 
 use \ArrayAccess;
 use \Johncarlson21\EbaySdk\ObjectSerializer;
@@ -59,8 +59,8 @@ class UpdateEvidencePaymentDisputeRequest implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'evidenceId' => 'string',
         'evidenceType' => 'string',
-        'files' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\FileEvidence[]',
-        'lineItems' => '\Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderLineItems[]'
+        'files' => '\Johncarlson21\EbaySdk\Model\FileEvidence[]',
+        'lineItems' => '\Johncarlson21\EbaySdk\Model\OrderLineItems[]'
     ];
 
     /**
@@ -271,7 +271,7 @@ class UpdateEvidencePaymentDisputeRequest implements ModelInterface, ArrayAccess
     /**
      * Gets files
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\FileEvidence[]
+     * @return \Johncarlson21\EbaySdk\Model\FileEvidence[]
      */
     public function getFiles()
     {
@@ -281,7 +281,7 @@ class UpdateEvidencePaymentDisputeRequest implements ModelInterface, ArrayAccess
     /**
      * Sets files
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\FileEvidence[] $files This array is used to specify one or more evidence files that will be added to the evidence set associated with a payment dispute. At least one evidence file must be specified in the <strong>files</strong> array.<br><br> The unique identifier of an evidence file is returned in the response payload of the <strong>uploadEvidence</strong> method.
+     * @param \Johncarlson21\EbaySdk\Model\FileEvidence[] $files This array is used to specify one or more evidence files that will be added to the evidence set associated with a payment dispute. At least one evidence file must be specified in the <strong>files</strong> array.<br><br> The unique identifier of an evidence file is returned in the response payload of the <strong>uploadEvidence</strong> method.
      *
      * @return $this
      */
@@ -295,7 +295,7 @@ class UpdateEvidencePaymentDisputeRequest implements ModelInterface, ArrayAccess
     /**
      * Gets lineItems
      *
-     * @return \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderLineItems[]
+     * @return \Johncarlson21\EbaySdk\Model\OrderLineItems[]
      */
     public function getLineItems()
     {
@@ -305,7 +305,7 @@ class UpdateEvidencePaymentDisputeRequest implements ModelInterface, ArrayAccess
     /**
      * Sets lineItems
      *
-     * @param \Johncarlson21\EbaySdk\Johncarlson21\EbaySdk\Model\OrderLineItems[] $lineItems This required array identifies the order line item(s) for which the evidence file(s) will be applicable. Both the <strong>itemId</strong> and <strong>lineItemID</strong> fields are needed to identify each order line item, and both of these values are returned under the <strong>evidenceRequests.lineItems</strong> array in the <strong>getPaymentDispute</strong> response.
+     * @param \Johncarlson21\EbaySdk\Model\OrderLineItems[] $lineItems This required array identifies the order line item(s) for which the evidence file(s) will be applicable. Both the <strong>itemId</strong> and <strong>lineItemID</strong> fields are needed to identify each order line item, and both of these values are returned under the <strong>evidenceRequests.lineItems</strong> array in the <strong>getPaymentDispute</strong> response.
      *
      * @return $this
      */
